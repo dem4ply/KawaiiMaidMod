@@ -1,9 +1,11 @@
 [
-  {
-    "type": "MOD_INFO",
-    "ident": "KawaiiMaidMod",
-    "name": "KawaiiMaidMod",
-    "authors": [ "inoue" ],
-    "description": "Kawaiiキャラクター、Kawaiiメイド服、Kawaii武器等々のアイテムや、Luaを利用したオンラインショップ、テレポーター等の独自システムを追加します。"
-  }
+    {
+        "authors": [
+            "inoue"
+        ],
+        "description": "Kawaiiキャラクター、Kawaiiメイド服、Kawaii武器等々のアイテムや、Luaを利用したオンラインショップ、テレポーター等の独自システムを追加します。",
+        "ident": "KawaiiMaidMod",
+        "name": "KawaiiMaidMod",
+        "type": "MOD_INFO"
+    }
 ]

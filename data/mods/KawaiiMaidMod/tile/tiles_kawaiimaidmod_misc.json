@@ -1,19 +1,28 @@
 {
-  "type": "mod_tileset",
-  "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE", "UltimateCataclysm", "UltimateCataclysmDemo" ],
-  "tile_info": [
-    {
-      "height": 32,
-      "width": 32
-    }
-  ],
-  "tiles-new": [
-	{
-	"file": "tile/tiles_kawaiimaidmod_shared.png",
-	"tiles":
-	[
-		{ "id": "kawaii_book_pacsys",					"fg": 1, "rotates": false }
-	]
-	}
-  ]
+    "compatibility": [
+        "MSX++DEAD_PEOPLE",
+        "UNDEAD_PEOPLE",
+        "UNDEAD_PEOPLE_BASE",
+        "UltimateCataclysm",
+        "UltimateCataclysmDemo"
+    ],
+    "tile_info": [
+        {
+            "height": 32,
+            "width": 32
+        }
+    ],
+    "tiles-new": [
+        {
+            "file": "tile/tiles_kawaiimaidmod_shared.png",
+            "tiles": [
+                {
+                    "fg": 1,
+                    "id": "kawaii_book_pacsys",
+                    "rotates": false
+                }
+            ]
+        }
+    ],
+    "type": "mod_tileset"
 }

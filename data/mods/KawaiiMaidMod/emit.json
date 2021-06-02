@@ -1,23 +1,27 @@
 [
-  {
-    "id": "fd_cold_breezes",
-    "type": "field_type",
-    "intensity_levels": [
-      { "name": "そよ風", "sym": "&", "convection_temperature_mod": -10 }
-      ],
-    "decay_amount_factor": 5,
-    "percent_spread": 100,
-    "outdoor_age_speedup": "100 minutes",
-    "priority": -1,
-    "half_life": "1 minutes",
-    "phase": "gas",
-    "display_field": true
-  },
-  {
-    "id": "emit_cold_air_weak_stream",
-    "type": "emit",
-    "field": "fd_cold_breezes",
-    "intensity": 1,
-    "qty": 8
-  }
+    {
+        "decay_amount_factor": 5,
+        "display_field": true,
+        "half_life": "1 minutes",
+        "id": "fd_cold_breezes",
+        "intensity_levels": [
+            {
+                "convection_temperature_mod": -10,
+                "name": "そよ風",
+                "sym": "&"
+            }
+        ],
+        "outdoor_age_speedup": "100 minutes",
+        "percent_spread": 100,
+        "phase": "gas",
+        "priority": -1,
+        "type": "field_type"
+    },
+    {
+        "field": "fd_cold_breezes",
+        "id": "emit_cold_air_weak_stream",
+        "intensity": 1,
+        "qty": 8,
+        "type": "emit"
+    }
 ]

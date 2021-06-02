@@ -1,53 +1,183 @@
 {
-  "type": "mod_tileset",
-  "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE", "UltimateCataclysm", "UltimateCataclysmDemo" ],
-  "tile_info": [
-    {
-      "height": 32,
-      "width": 32
-    }
-  ],
-  "tiles-new": [
-	{
-	"file": "tile/tiles_kawaiimaidmod_cc.png",
-	"tiles":
-	[
-		{ "id": "overlay_mutation_SKIN_PALE_JP",	"fg": 0, "rotates": false },
-		{ "id": "overlay_mutation_SKIN_LIGHT_JP",	"fg": 1, "rotates": false },
-		{ "id": "overlay_mutation_SKIN_MEDIUM_JP",	"fg": 2, "rotates": false },
-		{ "id": "overlay_mutation_SKIN_TAN_JP",		"fg": 3, "rotates": false },
-		{ "id": "overlay_mutation_SKIN_DARK_JP",	"fg": 4, "rotates": false },
-		{ "id": "overlay_mutation_SKIN_PINK_JP",	"fg": 5, "rotates": false },
-
-		{ "id": "overlay_mutation_EYE_BLUE_JP",		"fg": 16, "rotates": false },
-		{ "id": "overlay_mutation_EYE_GRAY_JP",		"fg": 17, "rotates": false },
-		{ "id": "overlay_mutation_EYE_BROWN_JP",	"fg": 18, "rotates": false },
-		{ "id": "overlay_mutation_EYE_GREEN_JP",	"fg": 19, "rotates": false },
-		{ "id": "overlay_mutation_EYE_RED_JP",		"fg": 20, "rotates": false },
-		{ "id": "overlay_mutation_EYE_YELLOW_JP",	"fg": 21, "rotates": false },
-		{ "id": "overlay_mutation_EYE_PURPLE_JP",	"fg": 22, "rotates": false },
-		
-		{ "id": "overlay_mutation_EYE_BLUE_JP_2",	"fg": 32, "rotates": false },
-		{ "id": "overlay_mutation_EYE_GRAY_JP_2",	"fg": 33, "rotates": false },
-		{ "id": "overlay_mutation_EYE_BROWN_JP_2",	"fg": 34, "rotates": false },
-		{ "id": "overlay_mutation_EYE_GREEN_JP_2",	"fg": 35, "rotates": false },
-		{ "id": "overlay_mutation_EYE_RED_JP_2",	"fg": 36, "rotates": false },
-		{ "id": "overlay_mutation_EYE_YELLOW_JP_2",	"fg": 37, "rotates": false },
-		{ "id": "overlay_mutation_EYE_PURPLE_JP_2",	"fg": 38, "rotates": false },
-		
-		{ "id": "overlay_mutation_hair1blondjp",	"fg": 48, "rotates": false },
-		{ "id": "overlay_mutation_hair1redjp",		"fg": 49, "rotates": false },
-		{ "id": "overlay_mutation_hair1brownjp",	"fg": 50, "rotates": false },
-		{ "id": "overlay_mutation_hair1blackjp",	"fg": 51, "rotates": false },
-		{ "id": "overlay_mutation_hair1whitejp",	"fg": 52, "rotates": false },
-		{ "id": "overlay_mutation_hair1greyjp",		"fg": 53, "rotates": false },
-		{ "id": "overlay_mutation_hair1pinkjp",		"fg": 54, "rotates": false },
-		{ "id": "overlay_mutation_hair1orangejp",	"fg": 55, "rotates": false },
-		{ "id": "overlay_mutation_hair1bluejp",		"fg": 56, "rotates": false },
-		{ "id": "overlay_mutation_hair1greenjp",	"fg": 57, "rotates": false },
-		{ "id": "overlay_mutation_hair1aquajp",		"fg": 58, "rotates": false },
-		{ "id": "overlay_mutation_hair1purplejp",	"fg": 59, "rotates": false }
-	]
-	}
-  ]
+    "compatibility": [
+        "MSX++DEAD_PEOPLE",
+        "UNDEAD_PEOPLE",
+        "UNDEAD_PEOPLE_BASE",
+        "UltimateCataclysm",
+        "UltimateCataclysmDemo"
+    ],
+    "tile_info": [
+        {
+            "height": 32,
+            "width": 32
+        }
+    ],
+    "tiles-new": [
+        {
+            "file": "tile/tiles_kawaiimaidmod_cc.png",
+            "tiles": [
+                {
+                    "fg": 0,
+                    "id": "overlay_mutation_SKIN_PALE_JP",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "overlay_mutation_SKIN_LIGHT_JP",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "overlay_mutation_SKIN_MEDIUM_JP",
+                    "rotates": false
+                },
+                {
+                    "fg": 3,
+                    "id": "overlay_mutation_SKIN_TAN_JP",
+                    "rotates": false
+                },
+                {
+                    "fg": 4,
+                    "id": "overlay_mutation_SKIN_DARK_JP",
+                    "rotates": false
+                },
+                {
+                    "fg": 5,
+                    "id": "overlay_mutation_SKIN_PINK_JP",
+                    "rotates": false
+                },
+                {
+                    "fg": 16,
+                    "id": "overlay_mutation_EYE_BLUE_JP",
+                    "rotates": false
+                },
+                {
+                    "fg": 17,
+                    "id": "overlay_mutation_EYE_GRAY_JP",
+                    "rotates": false
+                },
+                {
+                    "fg": 18,
+                    "id": "overlay_mutation_EYE_BROWN_JP",
+                    "rotates": false
+                },
+                {
+                    "fg": 19,
+                    "id": "overlay_mutation_EYE_GREEN_JP",
+                    "rotates": false
+                },
+                {
+                    "fg": 20,
+                    "id": "overlay_mutation_EYE_RED_JP",
+                    "rotates": false
+                },
+                {
+                    "fg": 21,
+                    "id": "overlay_mutation_EYE_YELLOW_JP",
+                    "rotates": false
+                },
+                {
+                    "fg": 22,
+                    "id": "overlay_mutation_EYE_PURPLE_JP",
+                    "rotates": false
+                },
+                {
+                    "fg": 32,
+                    "id": "overlay_mutation_EYE_BLUE_JP_2",
+                    "rotates": false
+                },
+                {
+                    "fg": 33,
+                    "id": "overlay_mutation_EYE_GRAY_JP_2",
+                    "rotates": false
+                },
+                {
+                    "fg": 34,
+                    "id": "overlay_mutation_EYE_BROWN_JP_2",
+                    "rotates": false
+                },
+                {
+                    "fg": 35,
+                    "id": "overlay_mutation_EYE_GREEN_JP_2",
+                    "rotates": false
+                },
+                {
+                    "fg": 36,
+                    "id": "overlay_mutation_EYE_RED_JP_2",
+                    "rotates": false
+                },
+                {
+                    "fg": 37,
+                    "id": "overlay_mutation_EYE_YELLOW_JP_2",
+                    "rotates": false
+                },
+                {
+                    "fg": 38,
+                    "id": "overlay_mutation_EYE_PURPLE_JP_2",
+                    "rotates": false
+                },
+                {
+                    "fg": 48,
+                    "id": "overlay_mutation_hair1blondjp",
+                    "rotates": false
+                },
+                {
+                    "fg": 49,
+                    "id": "overlay_mutation_hair1redjp",
+                    "rotates": false
+                },
+                {
+                    "fg": 50,
+                    "id": "overlay_mutation_hair1brownjp",
+                    "rotates": false
+                },
+                {
+                    "fg": 51,
+                    "id": "overlay_mutation_hair1blackjp",
+                    "rotates": false
+                },
+                {
+                    "fg": 52,
+                    "id": "overlay_mutation_hair1whitejp",
+                    "rotates": false
+                },
+                {
+                    "fg": 53,
+                    "id": "overlay_mutation_hair1greyjp",
+                    "rotates": false
+                },
+                {
+                    "fg": 54,
+                    "id": "overlay_mutation_hair1pinkjp",
+                    "rotates": false
+                },
+                {
+                    "fg": 55,
+                    "id": "overlay_mutation_hair1orangejp",
+                    "rotates": false
+                },
+                {
+                    "fg": 56,
+                    "id": "overlay_mutation_hair1bluejp",
+                    "rotates": false
+                },
+                {
+                    "fg": 57,
+                    "id": "overlay_mutation_hair1greenjp",
+                    "rotates": false
+                },
+                {
+                    "fg": 58,
+                    "id": "overlay_mutation_hair1aquajp",
+                    "rotates": false
+                },
+                {
+                    "fg": 59,
+                    "id": "overlay_mutation_hair1purplejp",
+                    "rotates": false
+                }
+            ]
+        }
+    ],
+    "type": "mod_tileset"
 }

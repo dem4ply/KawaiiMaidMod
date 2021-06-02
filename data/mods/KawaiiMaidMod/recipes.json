@@ -1,1061 +1,2398 @@
 [
-  {
-    "type": "recipe",
-    "result": "kawaii_maid_dress",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "skills_required": [ "tailor", 2 ],
-    "time": 50000,
-    "autolearn": true,
-    "components": [ [ [ "maid_dress", 1 ], [ "rag", 24 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_maid_dress_ex",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 4,
-    "skills_required": [ "tailor", 4 ],
-    "time": 50000,
-    "autolearn": true,
-    "using": [ [ "filament", 200 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [
-      [ [ "kawaii_maid_dress", 1 ] ],
-      [ [ "rag", 20 ] ],
-      [ [ "thread", 30 ] ],
-      [ [ "plastic_chunk", 6 ] ],
-      [ [ "leather", 12 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_maid_dress_lss",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 9,
-    "skills_required": [ [ "tailor", 9 ], [ "electronics", 6 ] ],
-    "time": 180000,
-    "autolearn": true,
-    "using": [ [ "filament", 200 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
-    "components": [
-      [ [ "rag", 30 ] ],
-      [ [ "coat_rain", 1 ] ],
-      [ [ "kevlar", 1 ], [ "modularvest", 1 ], [ "swat_armor", 1 ], [ "kevlar_plate", 24 ] ],
-      [ [ "element", 6 ] ],
-      [ [ "cable", 12 ] ]
-    ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_wedding_dress",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 10 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_sister_dress",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 10 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_raincoat",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "plastic_chunk", 6 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_sailor_fuku",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 10 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_sukumizu_kon",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 10 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_sukumizu_siro",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 10 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_nurse",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 10 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_maid_panties",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_LEGS",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": 20000,
-    "autolearn": true,
-    "using": [ [ "filament", 15 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "panties", 1 ], [ "rag", 3 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_maid_bra",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": 20000,
-    "autolearn": true,
-    "using": [ [ "filament", 20 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "bra", 1 ], [ "rag", 4 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_maid_simapan_pink",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_LEGS",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": 20000,
-    "autolearn": true,
-    "using": [ [ "filament", 15 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "panties", 1 ], [ "rag", 3 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_maid_simabura_pink",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": 20000,
-    "autolearn": true,
-    "using": [ [ "filament", 20 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "bra", 1 ], [ "rag", 4 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_maid_simapan_green",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_LEGS",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": 20000,
-    "autolearn": true,
-    "using": [ [ "filament", 15 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "panties", 1 ], [ "rag", 3 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_maid_simabura_green",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": 20000,
-    "autolearn": true,
-    "using": [ [ "filament", 20 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "bra", 1 ], [ "rag", 4 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_bikini_bottom_black",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_LEGS",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "bikini_bottom", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_bikini_top_black",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "bikini_top", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_tailskirt_mini",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_LEGS",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "nanoskirt", 1 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_vest",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_TORSO",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "vest", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_hat",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 10000,
-    "autolearn": true,
-    "components": [ [ [ "maid_hat", 1 ], [ "rag", 14 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_hat_thermal_off",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "electronics",
-    "difficulty": 1,
-    "skills_required": [ "tailor", 2 ],
-    "time": 120000,
-    "autolearn": true,
-    "using": [ [ "filament", 24 ], [ "soldering_standard", 100 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 10 ] ], [ [ "element", 4 ] ], [ [ "cable", 12 ] ] ]
-  },
-  {
-    "type": "recipe",
-    "result": "kawaii_maid_hat_lss",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 5,
-    "skills_required": [ [ "tailor", 6 ], [ "electronics", 3 ] ],
-    "time": 180000,
-    "autolearn": true,
-    "using": [ [ "filament", 200 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "tools": [ [ [ "welder", 28 ], [ "welder_crude", 42 ], [ "soldering_iron", 42 ], [ "toolset", 42 ] ] ],
-    "components": [ [ [ "kawaii_maid_hat_thermal_off", 1 ] ], [ [ "kevlar_plate", 12 ] ], [ [ "element", 6 ] ], [ [ "cable", 12 ] ] ]
-  },
-  {
-    "result": "kawaii_hitec_megane",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "electronics",
-    "skills_required": [ "electronics", 8 ],
-    "difficulty": 8,
-    "time": 100000,
-    "autolearn": true,
-    "qualities": [ { "id": "SCREW", "level": 1 } ],
-    "components": [ [ [ "goggles_ir", 1 ] ], [ [ "goggles_nv", 1 ] ], [ [ "kawaii_maid_megane_01", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_megane_01",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_megane_03",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_megane_05",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_megane_06",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_megane_07",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_megane_08",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_megane_09",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "glasses_eye", 1 ], [ "glasses_bifocal", 1 ], [ "glasses_reading", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_hat_cotton",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": 40000,
-    "autolearn": true,
-    "using": [ [ "sewing_standard", 8 ] ],
-    "components": [ [ [ "rag", 3 ] ] ]
-  },
-  {
-    "result": "kawaii_balclava",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "skills_required": [ "survival", 1 ],
-    "time": 5000,
-    "autolearn": true,
-    "using": [ [ "sewing_standard", 3 ] ],
-    "components": [ [ [ "rag", 4 ] ] ]
-  },
-  {
-    "result": "kawaii_wedding_veil_a",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 5 ] ] ]
-  },
-  {
-    "result": "kawaii_nurse_cap",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 5 ] ] ]
-  },
-  {
-    "result": "kawaii_wedding_veil_b",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 5 ] ] ]
-  },
-  {
-    "result": "kawaii_sister_veil",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 5 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_01",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_acc_hobeni",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_acc_eye_light",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_02",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_acc_darkface",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_acc_headset",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_03",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_04",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_05",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_06",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_07",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_08",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_09",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_10",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_11",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_12",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_13",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_14",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_15",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_16",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_17",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_wig_18",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_eff_heart",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_eff_hatena",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_eff_bikkuri",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_eff_ase",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_eff_tere",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_acc_angelring",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "rag", 1 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_hardcase",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_STORAGE",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": 80000,
-    "autolearn": true,
-    "using": [ [ "filament", 30 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 40 ], [ "fur", 32 ], [ "tanned_pelt", 6 ], [ "leather", 24 ], [ "tanned_hide", 6 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_hardcase_mini",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_STORAGE",
-    "skill_used": "tailor",
-    "skills_required": [ "fabrication", 5 ],
-    "difficulty": 5,
-    "time": 60000,
-    "autolearn": true,
-    "using": [ [ "filament", 20 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 30 ], [ "fur", 20 ], [ "tanned_pelt", 4 ], [ "leather", 18 ], [ "tanned_hide", 4 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_hardcase_slim",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_STORAGE",
-    "skill_used": "tailor",
-    "skills_required": [ "fabrication", 5 ],
-    "difficulty": 5,
-    "time": 40000,
-    "autolearn": true,
-    "using": [ [ "filament", 20 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 20 ], [ "fur", 16 ], [ "tanned_pelt", 3 ], [ "leather", 12 ], [ "tanned_hide", 3 ] ] ]
-  },
-  {
-    "result": "kawaii_angel_wing_bag",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_STORAGE",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": 80000,
-    "autolearn": true,
-    "using": [ [ "filament", 30 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 40 ], [ "fur", 32 ], [ "tanned_pelt", 6 ], [ "leather", 24 ], [ "tanned_hide", 6 ] ] ]
-  },
-  {
-    "result": "kawaii_secretpoach",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_STORAGE",
-    "skill_used": "tailor",
-    "difficulty": 8,
-    "time": 30000,
-    "autolearn": true,
-    "using": [ [ "filament", 10 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 24 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_niso_thick",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": 3000,
-    "autolearn": true,
-    "using": [ [ "filament", 10 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 18 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_niso_thin",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": 3000,
-    "autolearn": true,
-    "using": [ [ "filament", 10 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 12 ] ] ]
-  },
-  {
-    "result": "kawaii_socks_white",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 1000,
-    "autolearn": true,
-    "using": [ [ "filament", 10 ] ],
-    "components": [ [ [ "rag", 6 ] ] ]
-  },
-  {
-    "result": "kawaii_tights_black",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 3,
-    "time": 6000,
-    "autolearn": true,
-    "using": [ [ "filament", 20 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 18 ] ] ]
-  },
-  {
-    "result": "kawaii_tights_white",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 3,
-    "time": 6000,
-    "autolearn": true,
-    "using": [ [ "filament", 20 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 18 ] ] ]
-  },
-  {
-    "result": "kawaii_maid_garter",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 2,
-    "time": 3000,
-    "autolearn": true,
-    "using": [ [ "filament", 30 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 8 ] ] ]
-  },
-  {
-    "result": "kawaii_dress_shoes",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "components": [ [ [ "leather", 4 ] ] ]
-  },
-  {
-    "result": "kawaii_loafer",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "using": [ [ "filament", 10 ] ],
-    "components": [ [ [ "leather", 4 ] ] ]
-  },
-  {
-    "result": "kawaii_boots",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 0,
-    "time": 100,
-    "autolearn": true,
-    "using": [ [ "filament", 10 ] ],
-    "components": [ [ [ "leather", 6 ] ] ]
-  },
-  {
-    "result": "kawaii_boots_hi",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 9,
-    "skills_required": [ "fabrication", 9 ],
-    "time": 180000,
-    "autolearn": true,
-    "using": [ [ "filament", 100 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "tools": [ [ [ "welder", 21 ], [ "welder_crude", 32 ], [ "soldering_iron", 32 ], [ "toolset", 32 ] ] ],
-    "components": [
-      [ [ "nomex", 22 ] ],
-      [ [ "kevlar_plate", 12 ] ],
-      [ [ "duct_tape", 300 ] ],
-      [ [ "nomex_socks", 1 ] ],
-      [ [ "boots_combat", 1 ], [ "boots_steel", 1 ], [ "boots_bunker", 1 ] ]
-    ]
-  },
-  {
-    "result": "kawaii_shoes_hi",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_FEET",
-    "skill_used": "tailor",
-    "difficulty": 9,
-    "skills_required": [ "fabrication", 9 ],
-    "time": 180000,
-    "autolearn": true,
-    "using": [ [ "filament", 100 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 }, { "id": "SEW", "level": 1 } ],
-    "tools": [ [ [ "welder", 21 ], [ "welder_crude", 32 ], [ "soldering_iron", 32 ], [ "toolset", 32 ] ] ],
-    "components": [
-      [ [ "nomex", 22 ] ],
-      [ [ "kevlar_plate", 12 ] ],
-      [ [ "duct_tape", 300 ] ],
-      [ [ "nomex_socks", 1 ] ],
-      [ [ "boots_combat", 1 ], [ "boots_steel", 1 ], [ "boots_bunker", 1 ] ]
-    ]
-  },
-  {
-    "result": "kawaii_scarf",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HEAD",
-    "skill_used": "tailor",
-    "time": 10000,
-    "reversible": true,
-    "autolearn": true,
-    "using": [ [ "filament", 3 ] ],
-    "qualities": [ { "id": "SEW", "level": 1 } ],
-    "components": [ [ [ "rag", 4 ] ] ]
-  },
-  {
-    "result": "kawaii_gloves_light",
-    "type": "recipe",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_HANDS",
-    "skill_used": "tailor",
-    "difficulty": 1,
-    "time": 10000,
-    "autolearn": true,
-    "using": [ [ "sewing_standard", 4 ] ],
-    "components": [ [ [ "rag", 4 ] ] ]
-  },
-  {
-    "//": "EXÉmÅ[É}ÉãÅ®EXÉçÉìÉOÇ÷ÇÃïœä∑ÉåÉVÉs",
-    "type": "recipe",
-    "result": "kawaii_maid_dress_ex_long",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 4,
-    "skills_required": [ "tailor", 4 ],
-    "time": "1 m",
-    "autolearn": true,
-    "components": [ [ [ "kawaii_maid_dress_ex", 1 ] ] ]
-  },
-  {
-    "//": "EXÉçÉìÉOÅ®EXÉmÅ[É}ÉãÇ÷ÇÃïœä∑ÉåÉVÉs",
-    "type": "recipe",
-    "result": "kawaii_maid_dress_ex",
-    "id_suffix": "transform",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 4,
-    "skills_required": [ "tailor", 4 ],
-    "time": "1 m",
-    "autolearn": true,
-    "components": [ [ [ "kawaii_maid_dress_ex_long", 1 ] ] ]
-  },
-  {
-    "//": "LSSÉmÅ[É}ÉãÅ®LSSÉçÉìÉOÇ÷ÇÃïœä∑ÉåÉVÉs",
-    "type": "recipe",
-    "result": "kawaii_maid_dress_lss_long",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 9,
-    "skills_required": [ [ "tailor", 9 ], [ "electronics", 6 ] ],
-    "time": "1 m",
-    "autolearn": true,
-    "components": [ [ [ "kawaii_maid_dress_lss", 1 ] ] ]
-  },
-  {
-    "//": "LSSÉçÉìÉOÅ®LSSÉmÅ[É}ÉãÇ÷ÇÃïœä∑ÉåÉVÉs",
-    "type": "recipe",
-    "result": "kawaii_maid_dress_lss",
-    "id_suffix": "transform",
-    "category": "CC_ARMOR",
-    "subcategory": "CSC_ARMOR_SUIT",
-    "skill_used": "tailor",
-    "difficulty": 9,
-    "skills_required": [ [ "tailor", 9 ], [ "electronics", 6 ] ],
-    "time": "1 m",
-    "autolearn": true,
-    "components": [ [ [ "kawaii_maid_dress_lss_long", 1 ] ] ]
-  }
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "maid_dress",
+                    1
+                ],
+                [
+                    "rag",
+                    24
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "result": "kawaii_maid_dress",
+        "skill_used": "tailor",
+        "skills_required": [
+            "tailor",
+            2
+        ],
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": 50000,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "kawaii_maid_dress",
+                    1
+                ]
+            ],
+            [
+                [
+                    "rag",
+                    20
+                ]
+            ],
+            [
+                [
+                    "thread",
+                    30
+                ]
+            ],
+            [
+                [
+                    "plastic_chunk",
+                    6
+                ]
+            ],
+            [
+                [
+                    "leather",
+                    12
+                ]
+            ]
+        ],
+        "difficulty": 4,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_dress_ex",
+        "skill_used": "tailor",
+        "skills_required": [
+            "tailor",
+            4
+        ],
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": 50000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                200
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    30
+                ]
+            ],
+            [
+                [
+                    "coat_rain",
+                    1
+                ]
+            ],
+            [
+                [
+                    "kevlar",
+                    1
+                ],
+                [
+                    "modularvest",
+                    1
+                ],
+                [
+                    "swat_armor",
+                    1
+                ],
+                [
+                    "kevlar_plate",
+                    24
+                ]
+            ],
+            [
+                [
+                    "element",
+                    6
+                ]
+            ],
+            [
+                [
+                    "cable",
+                    12
+                ]
+            ]
+        ],
+        "difficulty": 9,
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            },
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_dress_lss",
+        "skill_used": "tailor",
+        "skills_required": [
+            [
+                "tailor",
+                9
+            ],
+            [
+                "electronics",
+                6
+            ]
+        ],
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": 180000,
+        "tools": [
+            [
+                [
+                    "welder",
+                    28
+                ],
+                [
+                    "welder_crude",
+                    42
+                ],
+                [
+                    "soldering_iron",
+                    42
+                ],
+                [
+                    "toolset",
+                    42
+                ]
+            ]
+        ],
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                200
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    10
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wedding_dress",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    10
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_sister_dress",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "plastic_chunk",
+                    6
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_raincoat",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    10
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_sailor_fuku",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    10
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_sukumizu_kon",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    10
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_sukumizu_siro",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    10
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_nurse",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "panties",
+                    1
+                ],
+                [
+                    "rag",
+                    3
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_panties",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_LEGS",
+        "time": 20000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                15
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "bra",
+                    1
+                ],
+                [
+                    "rag",
+                    4
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_bra",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_TORSO",
+        "time": 20000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                20
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "panties",
+                    1
+                ],
+                [
+                    "rag",
+                    3
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_simapan_pink",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_LEGS",
+        "time": 20000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                15
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "bra",
+                    1
+                ],
+                [
+                    "rag",
+                    4
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_simabura_pink",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_TORSO",
+        "time": 20000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                20
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "panties",
+                    1
+                ],
+                [
+                    "rag",
+                    3
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_simapan_green",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_LEGS",
+        "time": 20000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                15
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "bra",
+                    1
+                ],
+                [
+                    "rag",
+                    4
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_simabura_green",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_TORSO",
+        "time": 20000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                20
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "bikini_bottom",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_bikini_bottom_black",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_LEGS",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "bikini_top",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_bikini_top_black",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_TORSO",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "nanoskirt",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_tailskirt_mini",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_LEGS",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "vest",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_vest",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_TORSO",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "maid_hat",
+                    1
+                ],
+                [
+                    "rag",
+                    14
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_maid_hat",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 10000,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    10
+                ]
+            ],
+            [
+                [
+                    "element",
+                    4
+                ]
+            ],
+            [
+                [
+                    "cable",
+                    12
+                ]
+            ]
+        ],
+        "difficulty": 1,
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            },
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_hat_thermal_off",
+        "skill_used": "electronics",
+        "skills_required": [
+            "tailor",
+            2
+        ],
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 120000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                24
+            ],
+            [
+                "soldering_standard",
+                100
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "kawaii_maid_hat_thermal_off",
+                    1
+                ]
+            ],
+            [
+                [
+                    "kevlar_plate",
+                    12
+                ]
+            ],
+            [
+                [
+                    "element",
+                    6
+                ]
+            ],
+            [
+                [
+                    "cable",
+                    12
+                ]
+            ]
+        ],
+        "difficulty": 5,
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            },
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_hat_lss",
+        "skill_used": "tailor",
+        "skills_required": [
+            [
+                "tailor",
+                6
+            ],
+            [
+                "electronics",
+                3
+            ]
+        ],
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 180000,
+        "tools": [
+            [
+                [
+                    "welder",
+                    28
+                ],
+                [
+                    "welder_crude",
+                    42
+                ],
+                [
+                    "soldering_iron",
+                    42
+                ],
+                [
+                    "toolset",
+                    42
+                ]
+            ]
+        ],
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                200
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "goggles_ir",
+                    1
+                ]
+            ],
+            [
+                [
+                    "goggles_nv",
+                    1
+                ]
+            ],
+            [
+                [
+                    "kawaii_maid_megane_01",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 8,
+        "qualities": [
+            {
+                "id": "SCREW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_hitec_megane",
+        "skill_used": "electronics",
+        "skills_required": [
+            "electronics",
+            8
+        ],
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100000,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "glasses_eye",
+                    1
+                ],
+                [
+                    "glasses_bifocal",
+                    1
+                ],
+                [
+                    "glasses_reading",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_maid_megane_01",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "glasses_eye",
+                    1
+                ],
+                [
+                    "glasses_bifocal",
+                    1
+                ],
+                [
+                    "glasses_reading",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_maid_megane_03",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "glasses_eye",
+                    1
+                ],
+                [
+                    "glasses_bifocal",
+                    1
+                ],
+                [
+                    "glasses_reading",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_maid_megane_05",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "glasses_eye",
+                    1
+                ],
+                [
+                    "glasses_bifocal",
+                    1
+                ],
+                [
+                    "glasses_reading",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_maid_megane_06",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "glasses_eye",
+                    1
+                ],
+                [
+                    "glasses_bifocal",
+                    1
+                ],
+                [
+                    "glasses_reading",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_maid_megane_07",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "glasses_eye",
+                    1
+                ],
+                [
+                    "glasses_bifocal",
+                    1
+                ],
+                [
+                    "glasses_reading",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_maid_megane_08",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "glasses_eye",
+                    1
+                ],
+                [
+                    "glasses_bifocal",
+                    1
+                ],
+                [
+                    "glasses_reading",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_maid_megane_09",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    3
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "result": "kawaii_hat_cotton",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 40000,
+        "type": "recipe",
+        "using": [
+            [
+                "sewing_standard",
+                8
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    4
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "result": "kawaii_balclava",
+        "skill_used": "tailor",
+        "skills_required": [
+            "survival",
+            1
+        ],
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 5000,
+        "type": "recipe",
+        "using": [
+            [
+                "sewing_standard",
+                3
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    5
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wedding_veil_a",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    5
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_nurse_cap",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    5
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wedding_veil_b",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    5
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_sister_veil",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_01",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_acc_hobeni",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_acc_eye_light",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_02",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_acc_darkface",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_acc_headset",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_03",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_04",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_05",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_06",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_07",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_08",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_09",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_10",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_11",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_12",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_13",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_14",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_15",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_16",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_17",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_wig_18",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_eff_heart",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_eff_hatena",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_eff_bikkuri",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_eff_ase",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_eff_tere",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_acc_angelring",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    40
+                ],
+                [
+                    "fur",
+                    32
+                ],
+                [
+                    "tanned_pelt",
+                    6
+                ],
+                [
+                    "leather",
+                    24
+                ],
+                [
+                    "tanned_hide",
+                    6
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_hardcase",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_STORAGE",
+        "time": 80000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                30
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    30
+                ],
+                [
+                    "fur",
+                    20
+                ],
+                [
+                    "tanned_pelt",
+                    4
+                ],
+                [
+                    "leather",
+                    18
+                ],
+                [
+                    "tanned_hide",
+                    4
+                ]
+            ]
+        ],
+        "difficulty": 5,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_hardcase_mini",
+        "skill_used": "tailor",
+        "skills_required": [
+            "fabrication",
+            5
+        ],
+        "subcategory": "CSC_ARMOR_STORAGE",
+        "time": 60000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                20
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    20
+                ],
+                [
+                    "fur",
+                    16
+                ],
+                [
+                    "tanned_pelt",
+                    3
+                ],
+                [
+                    "leather",
+                    12
+                ],
+                [
+                    "tanned_hide",
+                    3
+                ]
+            ]
+        ],
+        "difficulty": 5,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_hardcase_slim",
+        "skill_used": "tailor",
+        "skills_required": [
+            "fabrication",
+            5
+        ],
+        "subcategory": "CSC_ARMOR_STORAGE",
+        "time": 40000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                20
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    40
+                ],
+                [
+                    "fur",
+                    32
+                ],
+                [
+                    "tanned_pelt",
+                    6
+                ],
+                [
+                    "leather",
+                    24
+                ],
+                [
+                    "tanned_hide",
+                    6
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_angel_wing_bag",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_STORAGE",
+        "time": 80000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                30
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    24
+                ]
+            ]
+        ],
+        "difficulty": 8,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_secretpoach",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_STORAGE",
+        "time": 30000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                10
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    18
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_niso_thick",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_FEET",
+        "time": 3000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                10
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    12
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_niso_thin",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_FEET",
+        "time": 3000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                10
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    6
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_socks_white",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_FEET",
+        "time": 1000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                10
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    18
+                ]
+            ]
+        ],
+        "difficulty": 3,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_tights_black",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_FEET",
+        "time": 6000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                20
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    18
+                ]
+            ]
+        ],
+        "difficulty": 3,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_tights_white",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_FEET",
+        "time": 6000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                20
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    8
+                ]
+            ]
+        ],
+        "difficulty": 2,
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_maid_garter",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_FEET",
+        "time": 3000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                30
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "leather",
+                    4
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_dress_shoes",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_FEET",
+        "time": 100,
+        "type": "recipe"
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "leather",
+                    4
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_loafer",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_FEET",
+        "time": 100,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                10
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "leather",
+                    6
+                ]
+            ]
+        ],
+        "difficulty": 0,
+        "result": "kawaii_boots",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_FEET",
+        "time": 100,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                10
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "nomex",
+                    22
+                ]
+            ],
+            [
+                [
+                    "kevlar_plate",
+                    12
+                ]
+            ],
+            [
+                [
+                    "duct_tape",
+                    300
+                ]
+            ],
+            [
+                [
+                    "nomex_socks",
+                    1
+                ]
+            ],
+            [
+                [
+                    "boots_combat",
+                    1
+                ],
+                [
+                    "boots_steel",
+                    1
+                ],
+                [
+                    "boots_bunker",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 9,
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            },
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_boots_hi",
+        "skill_used": "tailor",
+        "skills_required": [
+            "fabrication",
+            9
+        ],
+        "subcategory": "CSC_ARMOR_FEET",
+        "time": 180000,
+        "tools": [
+            [
+                [
+                    "welder",
+                    21
+                ],
+                [
+                    "welder_crude",
+                    32
+                ],
+                [
+                    "soldering_iron",
+                    32
+                ],
+                [
+                    "toolset",
+                    32
+                ]
+            ]
+        ],
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                100
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "nomex",
+                    22
+                ]
+            ],
+            [
+                [
+                    "kevlar_plate",
+                    12
+                ]
+            ],
+            [
+                [
+                    "duct_tape",
+                    300
+                ]
+            ],
+            [
+                [
+                    "nomex_socks",
+                    1
+                ]
+            ],
+            [
+                [
+                    "boots_combat",
+                    1
+                ],
+                [
+                    "boots_steel",
+                    1
+                ],
+                [
+                    "boots_bunker",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 9,
+        "qualities": [
+            {
+                "id": "CUT",
+                "level": 1
+            },
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_shoes_hi",
+        "skill_used": "tailor",
+        "skills_required": [
+            "fabrication",
+            9
+        ],
+        "subcategory": "CSC_ARMOR_FEET",
+        "time": 180000,
+        "tools": [
+            [
+                [
+                    "welder",
+                    21
+                ],
+                [
+                    "welder_crude",
+                    32
+                ],
+                [
+                    "soldering_iron",
+                    32
+                ],
+                [
+                    "toolset",
+                    32
+                ]
+            ]
+        ],
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                100
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    4
+                ]
+            ]
+        ],
+        "qualities": [
+            {
+                "id": "SEW",
+                "level": 1
+            }
+        ],
+        "result": "kawaii_scarf",
+        "reversible": true,
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HEAD",
+        "time": 10000,
+        "type": "recipe",
+        "using": [
+            [
+                "filament",
+                3
+            ]
+        ]
+    },
+    {
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "rag",
+                    4
+                ]
+            ]
+        ],
+        "difficulty": 1,
+        "result": "kawaii_gloves_light",
+        "skill_used": "tailor",
+        "subcategory": "CSC_ARMOR_HANDS",
+        "time": 10000,
+        "type": "recipe",
+        "using": [
+            [
+                "sewing_standard",
+                4
+            ]
+        ]
+    },
+    {
+        "//": "EX„Éé„Éº„Éû„É´‚ÜíEX„É≠„É≥„Ç∞„Å∏„ÅÆÂ§âÊèõ„É¨„Ç∑„Éî",
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "kawaii_maid_dress_ex",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 4,
+        "result": "kawaii_maid_dress_ex_long",
+        "skill_used": "tailor",
+        "skills_required": [
+            "tailor",
+            4
+        ],
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": "1 m",
+        "type": "recipe"
+    },
+    {
+        "//": "EX„É≠„É≥„Ç∞‚ÜíEX„Éé„Éº„Éû„É´„Å∏„ÅÆÂ§âÊèõ„É¨„Ç∑„Éî",
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "kawaii_maid_dress_ex_long",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 4,
+        "id_suffix": "transform",
+        "result": "kawaii_maid_dress_ex",
+        "skill_used": "tailor",
+        "skills_required": [
+            "tailor",
+            4
+        ],
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": "1 m",
+        "type": "recipe"
+    },
+    {
+        "//": "LSS„Éé„Éº„Éû„É´‚ÜíLSS„É≠„É≥„Ç∞„Å∏„ÅÆÂ§âÊèõ„É¨„Ç∑„Éî",
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "kawaii_maid_dress_lss",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 9,
+        "result": "kawaii_maid_dress_lss_long",
+        "skill_used": "tailor",
+        "skills_required": [
+            [
+                "tailor",
+                9
+            ],
+            [
+                "electronics",
+                6
+            ]
+        ],
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": "1 m",
+        "type": "recipe"
+    },
+    {
+        "//": "LSS„É≠„É≥„Ç∞‚ÜíLSS„Éé„Éº„Éû„É´„Å∏„ÅÆÂ§âÊèõ„É¨„Ç∑„Éî",
+        "autolearn": true,
+        "category": "CC_ARMOR",
+        "components": [
+            [
+                [
+                    "kawaii_maid_dress_lss_long",
+                    1
+                ]
+            ]
+        ],
+        "difficulty": 9,
+        "id_suffix": "transform",
+        "result": "kawaii_maid_dress_lss",
+        "skill_used": "tailor",
+        "skills_required": [
+            [
+                "tailor",
+                9
+            ],
+            [
+                "electronics",
+                6
+            ]
+        ],
+        "subcategory": "CSC_ARMOR_SUIT",
+        "time": "1 m",
+        "type": "recipe"
+    }
 ]

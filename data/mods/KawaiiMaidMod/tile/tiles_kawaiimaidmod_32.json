@@ -1,221 +1,963 @@
 {
-  "type": "mod_tileset",
-  "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE", "UltimateCataclysm", "UltimateCataclysmDemo" ],
-  "tile_info": [
-    {
-      "height": 32,
-      "width": 32
-    }
-  ],
-  "tiles-new": [
-    {
-      "file": "tile/tiles_kawaiimaidmod_32.png",
-      "tiles": [
-		{ "id": "player_female",				"fg": 0, "bg": 96, "rotates": false },
-
-		{ "id": "kawaii_maid_dress",			"fg": 1, "rotates": false },
-		{ "id": "kawaii_maid_dress_ex",			"fg": 1, "rotates": false },
-		{ "id": "kawaii_maid_dress_ex2",		"fg": 1, "rotates": false },
-		{ "id": "kawaii_maid_dress_lss",		"fg": 1, "rotates": false },
-		{ "id": "kawaii_maid_dress_lss1",		"fg": 1, "rotates": false },
-		{ "id": "kawaii_maid_dress_lss2",		"fg": 1, "rotates": false },
-		{ "id": "kawaii_maid_hat",				"fg": 2, "rotates": false },
-		{ "id": "kawaii_maid_hat_kiai",			"fg": 2, "rotates": false },
-		{ "id": "kawaii_maid_hat_thermal_off",	"fg": 2, "rotates": false },
-		{ "id": "kawaii_maid_hat_thermal_on",	"fg": 2, "rotates": false },
-		{ "id": "kawaii_maid_hat_lss",			"fg": 2, "rotates": false },
-		{ "id": "kawaii_maid_hat_lss1",			"fg": 2, "rotates": false },
-		{ "id": "kawaii_maid_hat_lss2",			"fg": 2, "rotates": false },
-		{ "id": "kawaii_dress_shoes",			"fg": 3, "rotates": false },
-		{ "id": "kawaii_maid_panties",			"fg": 4, "rotates": false },
-		{ "id": "kawaii_maid_bra",				"fg": 5, "rotates": false },
-		{ "id": "kawaii_maid_megane_01",		"fg": 6, "rotates": false },
-		{ "id": "kawaii_balclava",				"fg": 7, "rotates": false },
-		{ "id": "kawaii_hat_cotton",			"fg": 8, "rotates": false },
-		{ "id": "kawaii_tailskirt_mini",		"fg": 9, "rotates": false },
-		{ "id": "kawaii_vest",					"fg": 10, "rotates": false },
-		{ "id": "kawaii_bikini_bottom_black",	"fg": 11, "rotates": false },
-		{ "id": "kawaii_bikini_top_black",		"fg": 12, "rotates": false },
-		{ "id": "kawaii_maid_hardcase",			"fg": 13, "rotates": false },
-		{ "id": "kawaii_wedding_dress",			"fg": 14, "rotates": false },
-		{ "id": "kawaii_hitec_megane",			"fg": 15, "rotates": false },
-		{ "id": "kawaii_hitec_megane_nv",		"fg": 15, "rotates": false },
-		{ "id": "kawaii_hitec_megane_ir",		"fg": 15, "rotates": false },
-		{ "id": "kawaii_hitec_megane_blind",	"fg": 15, "rotates": false },
-		{ "id": "kawaii_maid_megane_02",		"fg": 15, "rotates": false },
-		{ "id": "kawaii_maid_megane_03",		"fg": 16, "rotates": false },
-		{ "id": "kawaii_maid_megane_04",		"fg": 17, "rotates": false },
-		{ "id": "kawaii_maid_megane_05",		"fg": 18, "rotates": false },
-		{ "id": "kawaii_maid_megane_06",		"fg": 19, "rotates": false },
-		{ "id": "kawaii_maid_megane_07",		"fg": 20, "rotates": false },
-		{ "id": "kawaii_maid_megane_08",		"fg": 21, "rotates": false },
-		{ "id": "kawaii_maid_megane_09",		"fg": 22, "rotates": false },
-		{ "id": "kawaii_maid_simapan_pink",		"fg": 23, "rotates": false },
-		{ "id": "kawaii_maid_simabura_pink",	"fg": 24, "rotates": false },
-		{ "id": "kawaii_maid_simapan_green",	"fg": 25, "rotates": false },
-		{ "id": "kawaii_maid_simabura_green",	"fg": 26, "rotates": false },
-		{ "id": "kawaii_secretpoach",			"fg": 27, "rotates": false },
-		{ "id": "kawaii_maid_garter",			"fg": 28, "rotates": false },
-		{ "id": "kawaii_maid_niso_thick",		"fg": 29, "rotates": false },
-		{ "id": "kawaii_maid_niso_thin",		"fg": 30, "rotates": false },
-		{ "id": "kawaii_sister_dress",			"fg": 31, "rotates": false },
-		{ "id": "kawaii_selfbow",				"fg": 32, "rotates": false },
-		{ "id": "kawaii_custombow_v1",			"fg": 33, "rotates": false },
-		{ "id": "kawaii_custombow_v2",			"fg": 34, "rotates": false },
-		{ "id": "kawaii_custombow_v3",			"fg": 35, "rotates": false },
-		{ "id": "kawaii_shieldbow",				"fg": 36, "rotates": false },
-		{ "id": "kawaii_shelia_off",			"fg": 37, "rotates": false },
-		{ "id": "kawaii_shelia_on",				"fg": 38, "rotates": false },
-		{ "id": "kawaii_leila",					"fg": 39, "rotates": false },
-		{ "id": "kawaii_daikyu",				"fg": 40, "rotates": false },
-		{ "id": "kawaii_boots",					"fg": 41, "rotates": false },
-		{ "id": "kawaii_sailor_fuku",			"fg": 42, "rotates": false },
-		{ "id": "kawaii_socks_white",			"fg": 43, "rotates": false },
-		{ "id": "kawaii_loafer",				"fg": 44, "rotates": false },
-		{ "id": "kawaii_arrow_ribbon",			"fg": 45, "rotates": false },
-		{ "id": "kawaii_arrow_feather",			"fg": 46, "rotates": false },
-		{ "id": "kawaii_arrow_little_mary",		"fg": 47, "rotates": false },
-		{ "id": "kawaii_scarf",					"fg": 48, "rotates": false },
-		{ "id": "kawaii_scarf_loose",			"fg": 49, "rotates": false },
-		{ "id": "kawaii_tights_black",			"fg": 50, "rotates": false },
-		{ "id": "kawaii_tights_white",			"fg": 51, "rotates": false },
-		{ "id": "kawaii_maid_dress_long",		"fg": 52, "rotates": false },
-		{ "id": "kawaii_boots_hi",				"fg": 53, "rotates": false },
-		{ "id": "kawaii_shoes_hi",				"fg": 54, "rotates": false },
-		{ "id": "kawaii_glass_bow",				"fg": 55, "rotates": false },
-		{ "id": "kawaii_knife_steak_twin",		"fg": 56, "rotates": false },
-		{ "id": "kawaii_sword_steel",			"fg": 57, "rotates": false },
-		{ "id": "kawaii_crowbar_lance",			"fg": 58, "rotates": false },
-		{ "id": "kawaii_amts_eve",				"fg": 59, "rotates": false },
-		
-		{ "id": "kawaii_amts_box",				"fg": 60, "rotates": false },
-		{ "id": "kawaii_amts_box2",				"fg": 61, "rotates": false },
-		{ "id": "kawaii_amts_manual",			"fg": 62, "rotates": false },
-		{ "id": "kawaii_amts_point_viewer",		"fg": 63, "rotates": false },
-		
-		{ "id": "kawaii_amts_pacsys",			"fg": 64, "rotates": false },
-		{ "id": "kawaii_amts_pac_t1_01",		"fg": 64, "rotates": false },
-		{ "id": "kawaii_amts_pac_t1_02",		"fg": 64, "rotates": false },
-		{ "id": "kawaii_amts_pac_t1_03",		"fg": 64, "rotates": false },
-		{ "id": "kawaii_amts_pac_t2_01",		"fg": 64, "rotates": false },
-		{ "id": "kawaii_amts_pac_t2_02",		"fg": 64, "rotates": false },
-		{ "id": "kawaii_amts_pac_t2_03",		"fg": 64, "rotates": false },
-		
-		{ "id": "kawaii_maid_hardcase_mini",	"fg": 65, "rotates": false },
-		{ "id": "kawaii_maid_hardcase_slim",	"fg": 66, "rotates": false },
-		
-		{ "id": "kawaii_bottle_2l",				"fg": 64, "rotates": false },
-		{ "id": "kawaii_jerrycan_10l",			"fg": 64, "rotates": false },
-		{ "id": "kawaii_jerrycan_20l",			"fg": 64, "rotates": false },
-		{ "id": "kawaii_UPS",					"fg": 64, "rotates": false },
-		{ "id": "kawaii_portable_kitchen",		"fg": 64, "rotates": false },
-		
-		{ "id": "kawaii_acc_hobeni",			"fg": 67, "rotates": false },
-		{ "id": "kawaii_acc_eye_light",			"fg": 68, "rotates": false },
-		{ "id": "kawaii_wig_02",				"fg": 69, "rotates": false },
-		{ "id": "kawaii_acc_darkface",			"fg": 70, "rotates": false },
-		{ "id": "kawaii_acc_headset",			"fg": 71, "rotates": false },
-		{ "id": "kawaii_proto_bottle",			"fg": 72, "rotates": false },
-		{ "id": "kawaii_gloves_light",			"fg": 73, "rotates": false },
-		
-		{ "id": "kawaii_sukumizu_kon",			"fg": 74, "rotates": false },
-		{ "id": "kawaii_sukumizu_siro",			"fg": 75, "rotates": false },
-		{ "id": "kawaii_angel_wing_bag",		"fg": 76, "rotates": false },
-		{ "id": "kawaii_nurse",					"fg": 77, "rotates": false },
-		
-		{ "id": "overlay_worn_kawaii_maid_dress",			"fg": 1, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_dress_ex",		"fg": 1, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_dress_ex2",		"fg": 1, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_dress_lss",		"fg": 1, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_dress_lss1",		"fg": 1, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_dress_lss2",		"fg": 1, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_hat",				"fg": 2, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_hat_kiai",		"fg": 2, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_hat_thermal_off",	"fg": 2, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_hat_thermal_on",	"fg": 2, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_hat_lss",			"fg": 2, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_hat_lss1",		"fg": 2, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_hat_lss2",		"fg": 2, "rotates": false },
-		{ "id": "overlay_worn_kawaii_dress_shoes",			"fg": 3, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_panties",			"fg": 4, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_bra",				"fg": 5, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_megane_01",		"fg": 6, "rotates": false },
-		{ "id": "overlay_worn_kawaii_balclava",				"fg": 7, "rotates": false },
-		{ "id": "overlay_worn_kawaii_hat_cotton",			"fg": 8, "rotates": false },
-		{ "id": "overlay_worn_kawaii_tailskirt_mini",		"fg": 9, "rotates": false },
-		{ "id": "overlay_worn_kawaii_vest",					"fg": 10, "rotates": false },
-		{ "id": "overlay_worn_kawaii_bikini_bottom_black",	"fg": 11, "rotates": false },
-		{ "id": "overlay_worn_kawaii_bikini_top_black",		"fg": 12, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_hardcase",		"fg": 13, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wedding_dress",		"fg": 14, "rotates": false },
-		{ "id": "overlay_worn_kawaii_hitec_megane",			"fg": 15, "rotates": false },
-		{ "id": "overlay_worn_kawaii_hitec_megane_nv",		"fg": 15, "rotates": false },
-		{ "id": "overlay_worn_kawaii_hitec_megane_ir",		"fg": 15, "rotates": false },
-		{ "id": "overlay_worn_kawaii_hitec_megane_blind",	"fg": 15, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_megane_02",		"fg": 15, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_megane_03",		"fg": 16, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_megane_04",		"fg": 17, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_megane_05",		"fg": 18, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_megane_06",		"fg": 19, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_megane_07",		"fg": 20, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_megane_08",		"fg": 21, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_megane_09",		"fg": 22, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_simapan_pink",	"fg": 23, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_simabura_pink",	"fg": 24, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_simapan_green",	"fg": 25, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_simabura_green",	"fg": 26, "rotates": false },
-		{ "id": "overlay_worn_kawaii_secretpoach",			"fg": 27, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_garter",			"fg": 28, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_niso_thick",		"fg": 29, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_niso_thin",		"fg": 30, "rotates": false },
-		{ "id": "overlay_worn_kawaii_sister_dress",			"fg": 31, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_selfbow",			"fg": 32, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_custombow_v1",		"fg": 33, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_custombow_v2",		"fg": 34, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_custombow_v3",		"fg": 35, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_shieldbow",			"fg": 36, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_shelia_off",		"fg": 37, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_shelia_on",			"fg": 38, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_leila",				"fg": 39, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_daikyu",			"fg": 40, "rotates": false },
-		{ "id": "overlay_worn_kawaii_boots",				"fg": 41, "rotates": false },
-		{ "id": "overlay_worn_kawaii_sailor_fuku",			"fg": 42, "rotates": false },
-		{ "id": "overlay_worn_kawaii_socks_white",			"fg": 43, "rotates": false },
-		{ "id": "overlay_worn_kawaii_loafer",				"fg": 44, "rotates": false },
-		
-		{ "id": "overlay_worn_kawaii_scarf",				"fg": 48, "rotates": false },
-		{ "id": "overlay_worn_kawaii_scarf_loose",			"fg": 49, "rotates": false },
-		{ "id": "overlay_worn_kawaii_tights_black",			"fg": 50, "rotates": false },
-		{ "id": "overlay_worn_kawaii_tights_white",			"fg": 51, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_dress_long",		"fg": 52, "rotates": false },
-		{ "id": "overlay_worn_kawaii_boots_hi",				"fg": 53, "rotates": false },
-		{ "id": "overlay_worn_kawaii_shoes_hi",				"fg": 54, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_glass_bow",			"fg": 55, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_knife_steak_twin",	"fg": 56, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_sword_steel",		"fg": 57, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_crowbar_lance",		"fg": 58, "rotates": false },
-		{ "id": "overlay_wielded_kawaii_amts_eve",			"fg": 59, "rotates": false },
-		
-		{ "id": "overlay_worn_kawaii_maid_hardcase_mini",	"fg": 65, "rotates": false },
-		{ "id": "overlay_worn_kawaii_maid_hardcase_slim",	"fg": 66, "rotates": false },
-		
-		{ "id": "overlay_worn_kawaii_acc_hobeni",			"fg": 67, "rotates": false },
-		{ "id": "overlay_worn_kawaii_acc_eye_light",		"fg": 68, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_02",				"fg": 69, "rotates": false },
-		{ "id": "overlay_worn_kawaii_acc_darkface",			"fg": 70, "rotates": false },
-		{ "id": "overlay_worn_kawaii_acc_headset",			"fg": 71, "rotates": false },
-		{ "id": "overlay_worn_kawaii_gloves_light",			"fg": 73, "rotates": false },
-		{ "id": "overlay_worn_kawaii_sukumizu_kon",			"fg": 74, "rotates": false },
-		{ "id": "overlay_worn_kawaii_sukumizu_siro",		"fg": 75, "rotates": false },
-		{ "id": "overlay_worn_kawaii_angel_wing_bag",		"fg": 76, "rotates": false },
-		{ "id": "overlay_worn_kawaii_nurse",				"fg": 77, "rotates": false }
-	]
-	},
-	{
-		"file": "tile/tiles_kawaiimaidmod_shared.png",
-		"tiles": [
-		
-	]
-	}
-  ]
+    "compatibility": [
+        "MSX++DEAD_PEOPLE",
+        "UNDEAD_PEOPLE",
+        "UNDEAD_PEOPLE_BASE",
+        "UltimateCataclysm",
+        "UltimateCataclysmDemo"
+    ],
+    "tile_info": [
+        {
+            "height": 32,
+            "width": 32
+        }
+    ],
+    "tiles-new": [
+        {
+            "file": "tile/tiles_kawaiimaidmod_32.png",
+            "tiles": [
+                {
+                    "bg": 96,
+                    "fg": 0,
+                    "id": "player_female",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "kawaii_maid_dress",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "kawaii_maid_dress_ex",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "kawaii_maid_dress_ex2",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "kawaii_maid_dress_lss",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "kawaii_maid_dress_lss1",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "kawaii_maid_dress_lss2",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "kawaii_maid_hat",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "kawaii_maid_hat_kiai",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "kawaii_maid_hat_thermal_off",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "kawaii_maid_hat_thermal_on",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "kawaii_maid_hat_lss",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "kawaii_maid_hat_lss1",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "kawaii_maid_hat_lss2",
+                    "rotates": false
+                },
+                {
+                    "fg": 3,
+                    "id": "kawaii_dress_shoes",
+                    "rotates": false
+                },
+                {
+                    "fg": 4,
+                    "id": "kawaii_maid_panties",
+                    "rotates": false
+                },
+                {
+                    "fg": 5,
+                    "id": "kawaii_maid_bra",
+                    "rotates": false
+                },
+                {
+                    "fg": 6,
+                    "id": "kawaii_maid_megane_01",
+                    "rotates": false
+                },
+                {
+                    "fg": 7,
+                    "id": "kawaii_balclava",
+                    "rotates": false
+                },
+                {
+                    "fg": 8,
+                    "id": "kawaii_hat_cotton",
+                    "rotates": false
+                },
+                {
+                    "fg": 9,
+                    "id": "kawaii_tailskirt_mini",
+                    "rotates": false
+                },
+                {
+                    "fg": 10,
+                    "id": "kawaii_vest",
+                    "rotates": false
+                },
+                {
+                    "fg": 11,
+                    "id": "kawaii_bikini_bottom_black",
+                    "rotates": false
+                },
+                {
+                    "fg": 12,
+                    "id": "kawaii_bikini_top_black",
+                    "rotates": false
+                },
+                {
+                    "fg": 13,
+                    "id": "kawaii_maid_hardcase",
+                    "rotates": false
+                },
+                {
+                    "fg": 14,
+                    "id": "kawaii_wedding_dress",
+                    "rotates": false
+                },
+                {
+                    "fg": 15,
+                    "id": "kawaii_hitec_megane",
+                    "rotates": false
+                },
+                {
+                    "fg": 15,
+                    "id": "kawaii_hitec_megane_nv",
+                    "rotates": false
+                },
+                {
+                    "fg": 15,
+                    "id": "kawaii_hitec_megane_ir",
+                    "rotates": false
+                },
+                {
+                    "fg": 15,
+                    "id": "kawaii_hitec_megane_blind",
+                    "rotates": false
+                },
+                {
+                    "fg": 15,
+                    "id": "kawaii_maid_megane_02",
+                    "rotates": false
+                },
+                {
+                    "fg": 16,
+                    "id": "kawaii_maid_megane_03",
+                    "rotates": false
+                },
+                {
+                    "fg": 17,
+                    "id": "kawaii_maid_megane_04",
+                    "rotates": false
+                },
+                {
+                    "fg": 18,
+                    "id": "kawaii_maid_megane_05",
+                    "rotates": false
+                },
+                {
+                    "fg": 19,
+                    "id": "kawaii_maid_megane_06",
+                    "rotates": false
+                },
+                {
+                    "fg": 20,
+                    "id": "kawaii_maid_megane_07",
+                    "rotates": false
+                },
+                {
+                    "fg": 21,
+                    "id": "kawaii_maid_megane_08",
+                    "rotates": false
+                },
+                {
+                    "fg": 22,
+                    "id": "kawaii_maid_megane_09",
+                    "rotates": false
+                },
+                {
+                    "fg": 23,
+                    "id": "kawaii_maid_simapan_pink",
+                    "rotates": false
+                },
+                {
+                    "fg": 24,
+                    "id": "kawaii_maid_simabura_pink",
+                    "rotates": false
+                },
+                {
+                    "fg": 25,
+                    "id": "kawaii_maid_simapan_green",
+                    "rotates": false
+                },
+                {
+                    "fg": 26,
+                    "id": "kawaii_maid_simabura_green",
+                    "rotates": false
+                },
+                {
+                    "fg": 27,
+                    "id": "kawaii_secretpoach",
+                    "rotates": false
+                },
+                {
+                    "fg": 28,
+                    "id": "kawaii_maid_garter",
+                    "rotates": false
+                },
+                {
+                    "fg": 29,
+                    "id": "kawaii_maid_niso_thick",
+                    "rotates": false
+                },
+                {
+                    "fg": 30,
+                    "id": "kawaii_maid_niso_thin",
+                    "rotates": false
+                },
+                {
+                    "fg": 31,
+                    "id": "kawaii_sister_dress",
+                    "rotates": false
+                },
+                {
+                    "fg": 32,
+                    "id": "kawaii_selfbow",
+                    "rotates": false
+                },
+                {
+                    "fg": 33,
+                    "id": "kawaii_custombow_v1",
+                    "rotates": false
+                },
+                {
+                    "fg": 34,
+                    "id": "kawaii_custombow_v2",
+                    "rotates": false
+                },
+                {
+                    "fg": 35,
+                    "id": "kawaii_custombow_v3",
+                    "rotates": false
+                },
+                {
+                    "fg": 36,
+                    "id": "kawaii_shieldbow",
+                    "rotates": false
+                },
+                {
+                    "fg": 37,
+                    "id": "kawaii_shelia_off",
+                    "rotates": false
+                },
+                {
+                    "fg": 38,
+                    "id": "kawaii_shelia_on",
+                    "rotates": false
+                },
+                {
+                    "fg": 39,
+                    "id": "kawaii_leila",
+                    "rotates": false
+                },
+                {
+                    "fg": 40,
+                    "id": "kawaii_daikyu",
+                    "rotates": false
+                },
+                {
+                    "fg": 41,
+                    "id": "kawaii_boots",
+                    "rotates": false
+                },
+                {
+                    "fg": 42,
+                    "id": "kawaii_sailor_fuku",
+                    "rotates": false
+                },
+                {
+                    "fg": 43,
+                    "id": "kawaii_socks_white",
+                    "rotates": false
+                },
+                {
+                    "fg": 44,
+                    "id": "kawaii_loafer",
+                    "rotates": false
+                },
+                {
+                    "fg": 45,
+                    "id": "kawaii_arrow_ribbon",
+                    "rotates": false
+                },
+                {
+                    "fg": 46,
+                    "id": "kawaii_arrow_feather",
+                    "rotates": false
+                },
+                {
+                    "fg": 47,
+                    "id": "kawaii_arrow_little_mary",
+                    "rotates": false
+                },
+                {
+                    "fg": 48,
+                    "id": "kawaii_scarf",
+                    "rotates": false
+                },
+                {
+                    "fg": 49,
+                    "id": "kawaii_scarf_loose",
+                    "rotates": false
+                },
+                {
+                    "fg": 50,
+                    "id": "kawaii_tights_black",
+                    "rotates": false
+                },
+                {
+                    "fg": 51,
+                    "id": "kawaii_tights_white",
+                    "rotates": false
+                },
+                {
+                    "fg": 52,
+                    "id": "kawaii_maid_dress_long",
+                    "rotates": false
+                },
+                {
+                    "fg": 53,
+                    "id": "kawaii_boots_hi",
+                    "rotates": false
+                },
+                {
+                    "fg": 54,
+                    "id": "kawaii_shoes_hi",
+                    "rotates": false
+                },
+                {
+                    "fg": 55,
+                    "id": "kawaii_glass_bow",
+                    "rotates": false
+                },
+                {
+                    "fg": 56,
+                    "id": "kawaii_knife_steak_twin",
+                    "rotates": false
+                },
+                {
+                    "fg": 57,
+                    "id": "kawaii_sword_steel",
+                    "rotates": false
+                },
+                {
+                    "fg": 58,
+                    "id": "kawaii_crowbar_lance",
+                    "rotates": false
+                },
+                {
+                    "fg": 59,
+                    "id": "kawaii_amts_eve",
+                    "rotates": false
+                },
+                {
+                    "fg": 60,
+                    "id": "kawaii_amts_box",
+                    "rotates": false
+                },
+                {
+                    "fg": 61,
+                    "id": "kawaii_amts_box2",
+                    "rotates": false
+                },
+                {
+                    "fg": 62,
+                    "id": "kawaii_amts_manual",
+                    "rotates": false
+                },
+                {
+                    "fg": 63,
+                    "id": "kawaii_amts_point_viewer",
+                    "rotates": false
+                },
+                {
+                    "fg": 64,
+                    "id": "kawaii_amts_pacsys",
+                    "rotates": false
+                },
+                {
+                    "fg": 64,
+                    "id": "kawaii_amts_pac_t1_01",
+                    "rotates": false
+                },
+                {
+                    "fg": 64,
+                    "id": "kawaii_amts_pac_t1_02",
+                    "rotates": false
+                },
+                {
+                    "fg": 64,
+                    "id": "kawaii_amts_pac_t1_03",
+                    "rotates": false
+                },
+                {
+                    "fg": 64,
+                    "id": "kawaii_amts_pac_t2_01",
+                    "rotates": false
+                },
+                {
+                    "fg": 64,
+                    "id": "kawaii_amts_pac_t2_02",
+                    "rotates": false
+                },
+                {
+                    "fg": 64,
+                    "id": "kawaii_amts_pac_t2_03",
+                    "rotates": false
+                },
+                {
+                    "fg": 65,
+                    "id": "kawaii_maid_hardcase_mini",
+                    "rotates": false
+                },
+                {
+                    "fg": 66,
+                    "id": "kawaii_maid_hardcase_slim",
+                    "rotates": false
+                },
+                {
+                    "fg": 64,
+                    "id": "kawaii_bottle_2l",
+                    "rotates": false
+                },
+                {
+                    "fg": 64,
+                    "id": "kawaii_jerrycan_10l",
+                    "rotates": false
+                },
+                {
+                    "fg": 64,
+                    "id": "kawaii_jerrycan_20l",
+                    "rotates": false
+                },
+                {
+                    "fg": 64,
+                    "id": "kawaii_UPS",
+                    "rotates": false
+                },
+                {
+                    "fg": 64,
+                    "id": "kawaii_portable_kitchen",
+                    "rotates": false
+                },
+                {
+                    "fg": 67,
+                    "id": "kawaii_acc_hobeni",
+                    "rotates": false
+                },
+                {
+                    "fg": 68,
+                    "id": "kawaii_acc_eye_light",
+                    "rotates": false
+                },
+                {
+                    "fg": 69,
+                    "id": "kawaii_wig_02",
+                    "rotates": false
+                },
+                {
+                    "fg": 70,
+                    "id": "kawaii_acc_darkface",
+                    "rotates": false
+                },
+                {
+                    "fg": 71,
+                    "id": "kawaii_acc_headset",
+                    "rotates": false
+                },
+                {
+                    "fg": 72,
+                    "id": "kawaii_proto_bottle",
+                    "rotates": false
+                },
+                {
+                    "fg": 73,
+                    "id": "kawaii_gloves_light",
+                    "rotates": false
+                },
+                {
+                    "fg": 74,
+                    "id": "kawaii_sukumizu_kon",
+                    "rotates": false
+                },
+                {
+                    "fg": 75,
+                    "id": "kawaii_sukumizu_siro",
+                    "rotates": false
+                },
+                {
+                    "fg": 76,
+                    "id": "kawaii_angel_wing_bag",
+                    "rotates": false
+                },
+                {
+                    "fg": 77,
+                    "id": "kawaii_nurse",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "overlay_worn_kawaii_maid_dress",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "overlay_worn_kawaii_maid_dress_ex",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "overlay_worn_kawaii_maid_dress_ex2",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "overlay_worn_kawaii_maid_dress_lss",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "overlay_worn_kawaii_maid_dress_lss1",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "overlay_worn_kawaii_maid_dress_lss2",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "overlay_worn_kawaii_maid_hat",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "overlay_worn_kawaii_maid_hat_kiai",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "overlay_worn_kawaii_maid_hat_thermal_off",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "overlay_worn_kawaii_maid_hat_thermal_on",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "overlay_worn_kawaii_maid_hat_lss",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "overlay_worn_kawaii_maid_hat_lss1",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "overlay_worn_kawaii_maid_hat_lss2",
+                    "rotates": false
+                },
+                {
+                    "fg": 3,
+                    "id": "overlay_worn_kawaii_dress_shoes",
+                    "rotates": false
+                },
+                {
+                    "fg": 4,
+                    "id": "overlay_worn_kawaii_maid_panties",
+                    "rotates": false
+                },
+                {
+                    "fg": 5,
+                    "id": "overlay_worn_kawaii_maid_bra",
+                    "rotates": false
+                },
+                {
+                    "fg": 6,
+                    "id": "overlay_worn_kawaii_maid_megane_01",
+                    "rotates": false
+                },
+                {
+                    "fg": 7,
+                    "id": "overlay_worn_kawaii_balclava",
+                    "rotates": false
+                },
+                {
+                    "fg": 8,
+                    "id": "overlay_worn_kawaii_hat_cotton",
+                    "rotates": false
+                },
+                {
+                    "fg": 9,
+                    "id": "overlay_worn_kawaii_tailskirt_mini",
+                    "rotates": false
+                },
+                {
+                    "fg": 10,
+                    "id": "overlay_worn_kawaii_vest",
+                    "rotates": false
+                },
+                {
+                    "fg": 11,
+                    "id": "overlay_worn_kawaii_bikini_bottom_black",
+                    "rotates": false
+                },
+                {
+                    "fg": 12,
+                    "id": "overlay_worn_kawaii_bikini_top_black",
+                    "rotates": false
+                },
+                {
+                    "fg": 13,
+                    "id": "overlay_worn_kawaii_maid_hardcase",
+                    "rotates": false
+                },
+                {
+                    "fg": 14,
+                    "id": "overlay_worn_kawaii_wedding_dress",
+                    "rotates": false
+                },
+                {
+                    "fg": 15,
+                    "id": "overlay_worn_kawaii_hitec_megane",
+                    "rotates": false
+                },
+                {
+                    "fg": 15,
+                    "id": "overlay_worn_kawaii_hitec_megane_nv",
+                    "rotates": false
+                },
+                {
+                    "fg": 15,
+                    "id": "overlay_worn_kawaii_hitec_megane_ir",
+                    "rotates": false
+                },
+                {
+                    "fg": 15,
+                    "id": "overlay_worn_kawaii_hitec_megane_blind",
+                    "rotates": false
+                },
+                {
+                    "fg": 15,
+                    "id": "overlay_worn_kawaii_maid_megane_02",
+                    "rotates": false
+                },
+                {
+                    "fg": 16,
+                    "id": "overlay_worn_kawaii_maid_megane_03",
+                    "rotates": false
+                },
+                {
+                    "fg": 17,
+                    "id": "overlay_worn_kawaii_maid_megane_04",
+                    "rotates": false
+                },
+                {
+                    "fg": 18,
+                    "id": "overlay_worn_kawaii_maid_megane_05",
+                    "rotates": false
+                },
+                {
+                    "fg": 19,
+                    "id": "overlay_worn_kawaii_maid_megane_06",
+                    "rotates": false
+                },
+                {
+                    "fg": 20,
+                    "id": "overlay_worn_kawaii_maid_megane_07",
+                    "rotates": false
+                },
+                {
+                    "fg": 21,
+                    "id": "overlay_worn_kawaii_maid_megane_08",
+                    "rotates": false
+                },
+                {
+                    "fg": 22,
+                    "id": "overlay_worn_kawaii_maid_megane_09",
+                    "rotates": false
+                },
+                {
+                    "fg": 23,
+                    "id": "overlay_worn_kawaii_maid_simapan_pink",
+                    "rotates": false
+                },
+                {
+                    "fg": 24,
+                    "id": "overlay_worn_kawaii_maid_simabura_pink",
+                    "rotates": false
+                },
+                {
+                    "fg": 25,
+                    "id": "overlay_worn_kawaii_maid_simapan_green",
+                    "rotates": false
+                },
+                {
+                    "fg": 26,
+                    "id": "overlay_worn_kawaii_maid_simabura_green",
+                    "rotates": false
+                },
+                {
+                    "fg": 27,
+                    "id": "overlay_worn_kawaii_secretpoach",
+                    "rotates": false
+                },
+                {
+                    "fg": 28,
+                    "id": "overlay_worn_kawaii_maid_garter",
+                    "rotates": false
+                },
+                {
+                    "fg": 29,
+                    "id": "overlay_worn_kawaii_maid_niso_thick",
+                    "rotates": false
+                },
+                {
+                    "fg": 30,
+                    "id": "overlay_worn_kawaii_maid_niso_thin",
+                    "rotates": false
+                },
+                {
+                    "fg": 31,
+                    "id": "overlay_worn_kawaii_sister_dress",
+                    "rotates": false
+                },
+                {
+                    "fg": 32,
+                    "id": "overlay_wielded_kawaii_selfbow",
+                    "rotates": false
+                },
+                {
+                    "fg": 33,
+                    "id": "overlay_wielded_kawaii_custombow_v1",
+                    "rotates": false
+                },
+                {
+                    "fg": 34,
+                    "id": "overlay_wielded_kawaii_custombow_v2",
+                    "rotates": false
+                },
+                {
+                    "fg": 35,
+                    "id": "overlay_wielded_kawaii_custombow_v3",
+                    "rotates": false
+                },
+                {
+                    "fg": 36,
+                    "id": "overlay_wielded_kawaii_shieldbow",
+                    "rotates": false
+                },
+                {
+                    "fg": 37,
+                    "id": "overlay_wielded_kawaii_shelia_off",
+                    "rotates": false
+                },
+                {
+                    "fg": 38,
+                    "id": "overlay_wielded_kawaii_shelia_on",
+                    "rotates": false
+                },
+                {
+                    "fg": 39,
+                    "id": "overlay_wielded_kawaii_leila",
+                    "rotates": false
+                },
+                {
+                    "fg": 40,
+                    "id": "overlay_wielded_kawaii_daikyu",
+                    "rotates": false
+                },
+                {
+                    "fg": 41,
+                    "id": "overlay_worn_kawaii_boots",
+                    "rotates": false
+                },
+                {
+                    "fg": 42,
+                    "id": "overlay_worn_kawaii_sailor_fuku",
+                    "rotates": false
+                },
+                {
+                    "fg": 43,
+                    "id": "overlay_worn_kawaii_socks_white",
+                    "rotates": false
+                },
+                {
+                    "fg": 44,
+                    "id": "overlay_worn_kawaii_loafer",
+                    "rotates": false
+                },
+                {
+                    "fg": 48,
+                    "id": "overlay_worn_kawaii_scarf",
+                    "rotates": false
+                },
+                {
+                    "fg": 49,
+                    "id": "overlay_worn_kawaii_scarf_loose",
+                    "rotates": false
+                },
+                {
+                    "fg": 50,
+                    "id": "overlay_worn_kawaii_tights_black",
+                    "rotates": false
+                },
+                {
+                    "fg": 51,
+                    "id": "overlay_worn_kawaii_tights_white",
+                    "rotates": false
+                },
+                {
+                    "fg": 52,
+                    "id": "overlay_worn_kawaii_maid_dress_long",
+                    "rotates": false
+                },
+                {
+                    "fg": 53,
+                    "id": "overlay_worn_kawaii_boots_hi",
+                    "rotates": false
+                },
+                {
+                    "fg": 54,
+                    "id": "overlay_worn_kawaii_shoes_hi",
+                    "rotates": false
+                },
+                {
+                    "fg": 55,
+                    "id": "overlay_wielded_kawaii_glass_bow",
+                    "rotates": false
+                },
+                {
+                    "fg": 56,
+                    "id": "overlay_wielded_kawaii_knife_steak_twin",
+                    "rotates": false
+                },
+                {
+                    "fg": 57,
+                    "id": "overlay_wielded_kawaii_sword_steel",
+                    "rotates": false
+                },
+                {
+                    "fg": 58,
+                    "id": "overlay_wielded_kawaii_crowbar_lance",
+                    "rotates": false
+                },
+                {
+                    "fg": 59,
+                    "id": "overlay_wielded_kawaii_amts_eve",
+                    "rotates": false
+                },
+                {
+                    "fg": 65,
+                    "id": "overlay_worn_kawaii_maid_hardcase_mini",
+                    "rotates": false
+                },
+                {
+                    "fg": 66,
+                    "id": "overlay_worn_kawaii_maid_hardcase_slim",
+                    "rotates": false
+                },
+                {
+                    "fg": 67,
+                    "id": "overlay_worn_kawaii_acc_hobeni",
+                    "rotates": false
+                },
+                {
+                    "fg": 68,
+                    "id": "overlay_worn_kawaii_acc_eye_light",
+                    "rotates": false
+                },
+                {
+                    "fg": 69,
+                    "id": "overlay_worn_kawaii_wig_02",
+                    "rotates": false
+                },
+                {
+                    "fg": 70,
+                    "id": "overlay_worn_kawaii_acc_darkface",
+                    "rotates": false
+                },
+                {
+                    "fg": 71,
+                    "id": "overlay_worn_kawaii_acc_headset",
+                    "rotates": false
+                },
+                {
+                    "fg": 73,
+                    "id": "overlay_worn_kawaii_gloves_light",
+                    "rotates": false
+                },
+                {
+                    "fg": 74,
+                    "id": "overlay_worn_kawaii_sukumizu_kon",
+                    "rotates": false
+                },
+                {
+                    "fg": 75,
+                    "id": "overlay_worn_kawaii_sukumizu_siro",
+                    "rotates": false
+                },
+                {
+                    "fg": 76,
+                    "id": "overlay_worn_kawaii_angel_wing_bag",
+                    "rotates": false
+                },
+                {
+                    "fg": 77,
+                    "id": "overlay_worn_kawaii_nurse",
+                    "rotates": false
+                }
+            ]
+        },
+        {
+            "file": "tile/tiles_kawaiimaidmod_shared.png",
+            "tiles": []
+        }
+    ],
+    "type": "mod_tileset"
 }

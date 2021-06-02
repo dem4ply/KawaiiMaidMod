@@ -1,80 +1,314 @@
 {
-  "type": "mod_tileset",
-  "compatibility": [ "MSX++DEAD_PEOPLE", "UNDEAD_PEOPLE", "UNDEAD_PEOPLE_BASE", "UltimateCataclysm", "UltimateCataclysmDemo" ],
-  "tile_info": [
-    {
-      "height": 32,
-      "width": 32
-    }
-  ],
-  "tiles-new": [
-	{
-	"file": "tile/tiles_kawaiimaidmod_32offset.png",
-	"sprite_offset_y":-4,
-	"tiles":
-	[
-		{ "id": "kawaii_wedding_veil_a",					"fg": 0, "rotates": false },
-		{ "id": "kawaii_wedding_veil_b",					"fg": 1, "rotates": false },
-		{ "id": "kawaii_wig_01",							"fg": 2, "rotates": false },
-		{ "id": "kawaii_sister_veil",						"fg": 3, "rotates": false },
-		{ "id": "kawaii_raincoat",							"fg": 4, "rotates": false },
-		{ "id": "kawaii_raincoat_off",						"fg": 5, "rotates": false },
-		
-		{ "id": "kawaii_wig_03",							"fg": 6, "rotates": false },
-		{ "id": "kawaii_eff_heart",							"fg": 7, "rotates": false },
-		{ "id": "kawaii_eff_hatena",						"fg": 8, "rotates": false },
-		{ "id": "kawaii_eff_bikkuri",						"fg": 9, "rotates": false },
-		{ "id": "kawaii_eff_ase",							"fg": 10, "rotates": false },
-		{ "id": "kawaii_acc_angelring",						"fg": 11, "rotates": false },
-		{ "id": "kawaii_eff_tere",							"fg": 12, "rotates": false },
-		{ "id": "kawaii_wig_04",							"fg": 13, "rotates": false },
-		{ "id": "kawaii_wig_05",							"fg": 14, "rotates": false },
-		{ "id": "kawaii_wig_06",							"fg": 15, "rotates": false },
-		{ "id": "kawaii_wig_07",							"fg": 16, "rotates": false },
-		{ "id": "kawaii_wig_08",							"fg": 17, "rotates": false },
-		{ "id": "kawaii_wig_09",							"fg": 18, "rotates": false },
-		{ "id": "kawaii_wig_10",							"fg": 19, "rotates": false },
-		{ "id": "kawaii_wig_11",							"fg": 20, "rotates": false },
-		{ "id": "kawaii_wig_12",							"fg": 21, "rotates": false },
-		{ "id": "kawaii_wig_13",							"fg": 22, "rotates": false },
-		{ "id": "kawaii_wig_14",							"fg": 23, "rotates": false },
-		{ "id": "kawaii_wig_15",							"fg": 24, "rotates": false },
-		{ "id": "kawaii_wig_16",							"fg": 25, "rotates": false },
-		{ "id": "kawaii_wig_17",							"fg": 26, "rotates": false },
-		{ "id": "kawaii_wig_18",							"fg": 27, "rotates": false },
-		{ "id": "kawaii_nurse_cap",							"fg": 28, "rotates": false },
-		
-		{ "id": "overlay_worn_kawaii_wedding_veil_a",		"fg": 0, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wedding_veil_b",		"fg": 1, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_01",				"fg": 2, "rotates": false },
-		{ "id": "overlay_worn_kawaii_sister_veil",			"fg": 3, "rotates": false },
-		{ "id": "overlay_worn_kawaii_raincoat",				"fg": 4, "rotates": false },
-		{ "id": "overlay_worn_kawaii_raincoat_off",			"fg": 5, "rotates": false },
-		
-		{ "id": "overlay_worn_kawaii_wig_03",				"fg": 6, "rotates": false },
-		{ "id": "overlay_worn_kawaii_eff_heart",			"fg": 7, "rotates": false },
-		{ "id": "overlay_worn_kawaii_eff_hatena",			"fg": 8, "rotates": false },
-		{ "id": "overlay_worn_kawaii_eff_bikkuri",			"fg": 9, "rotates": false },
-		{ "id": "overlay_worn_kawaii_eff_ase",				"fg": 10, "rotates": false },
-		{ "id": "overlay_worn_kawaii_acc_angelring",		"fg": 11, "rotates": false },
-		{ "id": "overlay_worn_kawaii_eff_tere",				"fg": 12, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_04",				"fg": 13, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_05",				"fg": 14, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_06",				"fg": 15, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_07",				"fg": 16, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_08",				"fg": 17, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_09",				"fg": 18, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_10",				"fg": 19, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_11",				"fg": 20, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_12",				"fg": 21, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_13",				"fg": 22, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_14",				"fg": 23, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_15",				"fg": 24, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_16",				"fg": 25, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_17",				"fg": 26, "rotates": false },
-		{ "id": "overlay_worn_kawaii_wig_18",				"fg": 27, "rotates": false },
-		{ "id": "overlay_worn_kawaii_nurse_cap",			"fg": 28, "rotates": false }
-	]
-	}
-  ]
+    "compatibility": [
+        "MSX++DEAD_PEOPLE",
+        "UNDEAD_PEOPLE",
+        "UNDEAD_PEOPLE_BASE",
+        "UltimateCataclysm",
+        "UltimateCataclysmDemo"
+    ],
+    "tile_info": [
+        {
+            "height": 32,
+            "width": 32
+        }
+    ],
+    "tiles-new": [
+        {
+            "file": "tile/tiles_kawaiimaidmod_32offset.png",
+            "sprite_offset_y": -4,
+            "tiles": [
+                {
+                    "fg": 0,
+                    "id": "kawaii_wedding_veil_a",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "kawaii_wedding_veil_b",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "kawaii_wig_01",
+                    "rotates": false
+                },
+                {
+                    "fg": 3,
+                    "id": "kawaii_sister_veil",
+                    "rotates": false
+                },
+                {
+                    "fg": 4,
+                    "id": "kawaii_raincoat",
+                    "rotates": false
+                },
+                {
+                    "fg": 5,
+                    "id": "kawaii_raincoat_off",
+                    "rotates": false
+                },
+                {
+                    "fg": 6,
+                    "id": "kawaii_wig_03",
+                    "rotates": false
+                },
+                {
+                    "fg": 7,
+                    "id": "kawaii_eff_heart",
+                    "rotates": false
+                },
+                {
+                    "fg": 8,
+                    "id": "kawaii_eff_hatena",
+                    "rotates": false
+                },
+                {
+                    "fg": 9,
+                    "id": "kawaii_eff_bikkuri",
+                    "rotates": false
+                },
+                {
+                    "fg": 10,
+                    "id": "kawaii_eff_ase",
+                    "rotates": false
+                },
+                {
+                    "fg": 11,
+                    "id": "kawaii_acc_angelring",
+                    "rotates": false
+                },
+                {
+                    "fg": 12,
+                    "id": "kawaii_eff_tere",
+                    "rotates": false
+                },
+                {
+                    "fg": 13,
+                    "id": "kawaii_wig_04",
+                    "rotates": false
+                },
+                {
+                    "fg": 14,
+                    "id": "kawaii_wig_05",
+                    "rotates": false
+                },
+                {
+                    "fg": 15,
+                    "id": "kawaii_wig_06",
+                    "rotates": false
+                },
+                {
+                    "fg": 16,
+                    "id": "kawaii_wig_07",
+                    "rotates": false
+                },
+                {
+                    "fg": 17,
+                    "id": "kawaii_wig_08",
+                    "rotates": false
+                },
+                {
+                    "fg": 18,
+                    "id": "kawaii_wig_09",
+                    "rotates": false
+                },
+                {
+                    "fg": 19,
+                    "id": "kawaii_wig_10",
+                    "rotates": false
+                },
+                {
+                    "fg": 20,
+                    "id": "kawaii_wig_11",
+                    "rotates": false
+                },
+                {
+                    "fg": 21,
+                    "id": "kawaii_wig_12",
+                    "rotates": false
+                },
+                {
+                    "fg": 22,
+                    "id": "kawaii_wig_13",
+                    "rotates": false
+                },
+                {
+                    "fg": 23,
+                    "id": "kawaii_wig_14",
+                    "rotates": false
+                },
+                {
+                    "fg": 24,
+                    "id": "kawaii_wig_15",
+                    "rotates": false
+                },
+                {
+                    "fg": 25,
+                    "id": "kawaii_wig_16",
+                    "rotates": false
+                },
+                {
+                    "fg": 26,
+                    "id": "kawaii_wig_17",
+                    "rotates": false
+                },
+                {
+                    "fg": 27,
+                    "id": "kawaii_wig_18",
+                    "rotates": false
+                },
+                {
+                    "fg": 28,
+                    "id": "kawaii_nurse_cap",
+                    "rotates": false
+                },
+                {
+                    "fg": 0,
+                    "id": "overlay_worn_kawaii_wedding_veil_a",
+                    "rotates": false
+                },
+                {
+                    "fg": 1,
+                    "id": "overlay_worn_kawaii_wedding_veil_b",
+                    "rotates": false
+                },
+                {
+                    "fg": 2,
+                    "id": "overlay_worn_kawaii_wig_01",
+                    "rotates": false
+                },
+                {
+                    "fg": 3,
+                    "id": "overlay_worn_kawaii_sister_veil",
+                    "rotates": false
+                },
+                {
+                    "fg": 4,
+                    "id": "overlay_worn_kawaii_raincoat",
+                    "rotates": false
+                },
+                {
+                    "fg": 5,
+                    "id": "overlay_worn_kawaii_raincoat_off",
+                    "rotates": false
+                },
+                {
+                    "fg": 6,
+                    "id": "overlay_worn_kawaii_wig_03",
+                    "rotates": false
+                },
+                {
+                    "fg": 7,
+                    "id": "overlay_worn_kawaii_eff_heart",
+                    "rotates": false
+                },
+                {
+                    "fg": 8,
+                    "id": "overlay_worn_kawaii_eff_hatena",
+                    "rotates": false
+                },
+                {
+                    "fg": 9,
+                    "id": "overlay_worn_kawaii_eff_bikkuri",
+                    "rotates": false
+                },
+                {
+                    "fg": 10,
+                    "id": "overlay_worn_kawaii_eff_ase",
+                    "rotates": false
+                },
+                {
+                    "fg": 11,
+                    "id": "overlay_worn_kawaii_acc_angelring",
+                    "rotates": false
+                },
+                {
+                    "fg": 12,
+                    "id": "overlay_worn_kawaii_eff_tere",
+                    "rotates": false
+                },
+                {
+                    "fg": 13,
+                    "id": "overlay_worn_kawaii_wig_04",
+                    "rotates": false
+                },
+                {
+                    "fg": 14,
+                    "id": "overlay_worn_kawaii_wig_05",
+                    "rotates": false
+                },
+                {
+                    "fg": 15,
+                    "id": "overlay_worn_kawaii_wig_06",
+                    "rotates": false
+                },
+                {
+                    "fg": 16,
+                    "id": "overlay_worn_kawaii_wig_07",
+                    "rotates": false
+                },
+                {
+                    "fg": 17,
+                    "id": "overlay_worn_kawaii_wig_08",
+                    "rotates": false
+                },
+                {
+                    "fg": 18,
+                    "id": "overlay_worn_kawaii_wig_09",
+                    "rotates": false
+                },
+                {
+                    "fg": 19,
+                    "id": "overlay_worn_kawaii_wig_10",
+                    "rotates": false
+                },
+                {
+                    "fg": 20,
+                    "id": "overlay_worn_kawaii_wig_11",
+                    "rotates": false
+                },
+                {
+                    "fg": 21,
+                    "id": "overlay_worn_kawaii_wig_12",
+                    "rotates": false
+                },
+                {
+                    "fg": 22,
+                    "id": "overlay_worn_kawaii_wig_13",
+                    "rotates": false
+                },
+                {
+                    "fg": 23,
+                    "id": "overlay_worn_kawaii_wig_14",
+                    "rotates": false
+                },
+                {
+                    "fg": 24,
+                    "id": "overlay_worn_kawaii_wig_15",
+                    "rotates": false
+                },
+                {
+                    "fg": 25,
+                    "id": "overlay_worn_kawaii_wig_16",
+                    "rotates": false
+                },
+                {
+                    "fg": 26,
+                    "id": "overlay_worn_kawaii_wig_17",
+                    "rotates": false
+                },
+                {
+                    "fg": 27,
+                    "id": "overlay_worn_kawaii_wig_18",
+                    "rotates": false
+                },
+                {
+                    "fg": 28,
+                    "id": "overlay_worn_kawaii_nurse_cap",
+                    "rotates": false
+                }
+            ]
+        }
+    ],
+    "type": "mod_tileset"
 }
