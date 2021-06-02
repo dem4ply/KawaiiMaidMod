@@ -1,6 +1,6 @@
 [
     {
-        "description": "大きなお屋敷で働いていましたが、大変動の日の後、雇い主一家は自分だけを除け者にして、どことも知れぬ場所へ長期旅行に出かけてしまいました。ただ、神は彼女を見捨ててはいなかった様です。眼前に広がるのは汚れた家屋、散らかった街。仕事を始めましょう。",
+        "description": "Although I worked in a large mansion, the day the cataclysm, my master's family fled to a secret location I did not know of. You were alone with a dirty house, and a cluttered city. It's time to go to work.",
         "ident": "kawaii_maid",
         "items": {
             "both": [
@@ -25,7 +25,7 @@
                 "kawaii_dress_shoes"
             ]
         },
-        "name": "メイド(kawaii)",
+        "name": "Cute Maid",
         "points": 1,
         "skills": [
             {
@@ -44,7 +44,7 @@
         "type": "profession"
     },
     {
-        "description": "地下深くの教会施設で数ヶ月ほど主に祈りを捧げていると気づいたら世界は一変していました。しかし悲観する事はありません、主を失う事は無いのですから。…さて、まずは祈りましょうか。",
+        "description": "After months in seculusion and prayer at our underground church, we visited the surface to find the world was completely changed. There is no need for despair, for God is with us.",
         "ident": "kawaii_priest",
         "items": {
             "both": [
@@ -62,7 +62,7 @@
                 "briefs"
             ]
         },
-        "name": "シスター(kawaii)",
+        "name": "Cute Nun",
         "points": 0,
         "skills": [
             {
@@ -73,7 +73,7 @@
         "type": "profession"
     },
     {
-        "description": "大変動以前、学校が毎日休みになればいいと思っていましたが、叶ってしまった様です。",
+        "description": "I used to think it would be nice if school closed forever. Now that the cataclysm has happened, it seems my wish has come true.",
         "ident": "kawaii_student",
         "items": {
             "both": [
@@ -96,7 +96,7 @@
                 "boxer_shorts"
             ]
         },
-        "name": "学生(kawaii)",
+        "name": "Cute Schoolgirl",
         "points": 0,
         "skills": [
             {
