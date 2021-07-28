@@ -7,7 +7,7 @@
         "cutting": 1,
         "damage": {
             "amount": 10,
-            "armor_penetration": 0,
+            "armor_penetration": 5,
             "damage_type": "stab"
         },
         "description": "An arrow decorated with a pretty red ribbon, making them easy to find and recover after battle.",
@@ -19,7 +19,6 @@
         "loudness": 0,
         "material": "wood",
         "name": "Cute Ribbon Arrow",
-        "pierce": 5,
         "price": 1000,
         "range": 7,
         "symbol": "=",
@@ -35,7 +34,7 @@
         "cutting": 1,
         "damage": {
             "amount": 15,
-            "armor_penetration": 0,
+            "armor_penetration": 15,
             "damage_type": "stab"
         },
         "description": "An arrow decorated with the brightly coloured flight feathers of birds. These are appear of exceptional craftsmanship, being lighter yet stronger than standard arrows, and consequently more likely to be recovered after combat since they are less likely to break.",
@@ -47,7 +46,6 @@
         "loudness": 0,
         "material": "plastic",
         "name": "Cute Feathered Arrow",
-        "pierce": 15,
         "price": 1000,
         "range": 8,
         "symbol": "=",
@@ -63,7 +61,7 @@
         "cutting": 10,
         "damage": {
             "amount": 18,
-            "armor_penetration": 0,
+            "armor_penetration": 30,
             "damage_type": "stab"
         },
         "description": "An arrow manufactured by the 'Alice & Maria' maid equipment designers. These aren't arrows so much as smart projectiles, having very dense alloy cores for greater force and a tip sheathed in an electromagnetic field to better penetrate armor.",
@@ -78,7 +76,6 @@
             "kawaii_amplastic"
         ],
         "name": "Cute Little Mary Arrows",
-        "pierce": 30,
         "price": 1000,
         "range": 10,
         "symbol": "=",
