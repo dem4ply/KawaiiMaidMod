@@ -10,7 +10,10 @@
                     "leg_l",
                     "leg_r"
                 ],
-                "encumbrance": 4
+                "encumbrance": [
+                    4,
+                    8
+                ]
             }
         ],
         "color": "blue",
@@ -25,7 +28,6 @@
             "cotton"
         ],
         "material_thickness": 1,
-        "max_encumbrance": 8,
         "name": "Cute Maid Clothes",
         "pocket_data": [
             {
@@ -75,7 +77,10 @@
                     "leg_l",
                     "leg_r"
                 ],
-                "encumbrance": 8
+                "encumbrance": [
+                    8,
+                    16
+                ]
             }
         ],
         "color": "dark_gray",
@@ -92,7 +97,6 @@
             "leather"
         ],
         "material_thickness": 4,
-        "max_encumbrance": 16,
         "name": "Cute Maid Adv. Uniform (summer form)",
         "pocket_data": [
             {
@@ -176,7 +180,10 @@
                     "arm_l",
                     "arm_r"
                 ],
-                "encumbrance": 10
+                "encumbrance": [
+                    10,
+                    20
+                ]
             }
         ],
         "category": "armor",
@@ -197,7 +204,6 @@
             "cotton"
         ],
         "material_thickness": 4,
-        "max_encumbrance": 20,
         "name": "Cute Maid Uniform LSS-PRO (off)",
         "pocket_data": [
             {
@@ -303,7 +309,10 @@
                     "leg_l",
                     "leg_r"
                 ],
-                "encumbrance": 5
+                "encumbrance": [
+                    5,
+                    10
+                ]
             }
         ],
         "color": "blue",
@@ -318,7 +327,6 @@
             "cotton"
         ],
         "material_thickness": 2,
-        "max_encumbrance": 10,
         "name": "Cute Victorian Maid Clothes",
         "pocket_data": [
             {
@@ -398,7 +406,10 @@
                     "leg_l",
                     "leg_r"
                 ],
-                "encumbrance": 4
+                "encumbrance": [
+                    4,
+                    6
+                ]
             }
         ],
         "color": "blue",
@@ -412,7 +423,6 @@
             "cotton"
         ],
         "material_thickness": 1,
-        "max_encumbrance": 6,
         "name": "Cute Nun Habit",
         "pocket_data": [
             {
@@ -547,7 +557,10 @@
                     "leg_l",
                     "leg_r"
                 ],
-                "encumbrance": 4
+                "encumbrance": [
+                    4,
+                    6
+                ]
             }
         ],
         "color": "blue",
@@ -561,7 +574,6 @@
             "cotton"
         ],
         "material_thickness": 1,
-        "max_encumbrance": 6,
         "name": "Cute School Girl Uniform",
         "pocket_data": [
             {
@@ -672,7 +684,10 @@
                     "leg_l",
                     "leg_r"
                 ],
-                "encumbrance": 4
+                "encumbrance": [
+                    4,
+                    6
+                ]
             }
         ],
         "color": "blue",
@@ -686,7 +701,6 @@
             "cotton"
         ],
         "material_thickness": 1,
-        "max_encumbrance": 6,
         "name": "ナース服[kawaii]",
         "pocket_data": [
             {
@@ -992,7 +1006,10 @@
                 "covers": [
                     "torso"
                 ],
-                "encumbrance": 3
+                "encumbrance": [
+                    3,
+                    5
+                ]
             }
         ],
         "color": "light_gray",
@@ -1006,7 +1023,6 @@
             "cotton"
         ],
         "material_thickness": 2,
-        "max_encumbrance": 5,
         "name": "Cute Utility Vest",
         "pocket_data": [
             {
@@ -2222,7 +2238,10 @@
                 "covers": [
                     "torso"
                 ],
-                "encumbrance": 5
+                "encumbrance": [
+                    5,
+                    30
+                ]
             }
         ],
         "color": "dark_gray",
@@ -2235,7 +2254,6 @@
             "cotton"
         ],
         "material_thickness": 2,
-        "max_encumbrance": 30,
         "name": "Cute Hardcase",
         "pocket_data": [
             {
@@ -2260,7 +2278,10 @@
                 "covers": [
                     "torso"
                 ],
-                "encumbrance": 4
+                "encumbrance": [
+                    4,
+                    18
+                ]
             }
         ],
         "color": "dark_gray",
@@ -2273,7 +2294,6 @@
             "cotton"
         ],
         "material_thickness": 2,
-        "max_encumbrance": 18,
         "name": "Cute Mini-Hardcase",
         "pocket_data": [
             {
@@ -2298,7 +2318,10 @@
                 "covers": [
                     "torso"
                 ],
-                "encumbrance": 2
+                "encumbrance": [
+                    2,
+                    8
+                ]
             }
         ],
         "color": "dark_gray",
@@ -2311,7 +2334,6 @@
             "cotton"
         ],
         "material_thickness": 2,
-        "max_encumbrance": 8,
         "name": "Cute Slim Hardcase",
         "pocket_data": [
             {
@@ -2343,7 +2365,10 @@
                 "covers": [
                     "leg_l"
                 ],
-                "encumbrance": 1
+                "encumbrance": [
+                    1,
+                    2
+                ]
             }
         ],
         "color": "dark_gray",
@@ -2357,7 +2382,6 @@
             "cotton"
         ],
         "material_thickness": 2,
-        "max_encumbrance": 2,
         "name": "Cute Garter Purse",
         "pocket_data": [
             {

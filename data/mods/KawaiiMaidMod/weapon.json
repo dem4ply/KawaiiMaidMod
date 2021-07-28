@@ -2,11 +2,15 @@
     {
         "ammo": "arrow",
         "armor_data": {
-            "coverage": 5,
-            "covers": [
-                "torso"
+            "armor": [
+                {
+                    "coverage": 5,
+                    "covers": [
+                        "torso"
+                    ],
+                    "encumbrance": 20
+                }
             ],
-            "encumbrance": 20,
             "material_thickness": 1
         },
         "bashing": 6,
@@ -44,11 +48,15 @@
     {
         "ammo": "arrow",
         "armor_data": {
-            "coverage": 5,
-            "covers": [
-                "torso"
+            "armor": [
+                {
+                    "coverage": 5,
+                    "covers": [
+                        "torso"
+                    ],
+                    "encumbrance": 20
+                }
             ],
-            "encumbrance": 20,
             "material_thickness": 1
         },
         "bashing": 8,
@@ -86,11 +94,15 @@
     {
         "ammo": "arrow",
         "armor_data": {
-            "coverage": 5,
-            "covers": [
-                "torso"
+            "armor": [
+                {
+                    "coverage": 5,
+                    "covers": [
+                        "torso"
+                    ],
+                    "encumbrance": 10
+                }
             ],
-            "encumbrance": 10,
             "material_thickness": 1
         },
         "bashing": 11,
@@ -145,11 +157,15 @@
     {
         "ammo": "arrow",
         "armor_data": {
-            "coverage": 5,
-            "covers": [
-                "torso"
+            "armor": [
+                {
+                    "coverage": 5,
+                    "covers": [
+                        "torso"
+                    ],
+                    "encumbrance": 10
+                }
             ],
-            "encumbrance": 10,
             "material_thickness": 1
         },
         "bashing": 15,
@@ -225,11 +241,15 @@
     {
         "ammo": "arrow",
         "armor_data": {
-            "coverage": 5,
-            "covers": [
-                "torso"
+            "armor": [
+                {
+                    "coverage": 5,
+                    "covers": [
+                        "torso"
+                    ],
+                    "encumbrance": 10
+                }
             ],
-            "encumbrance": 10,
             "material_thickness": 1
         },
         "bashing": 35,
@@ -308,11 +328,15 @@
     {
         "ammo": "arrow",
         "armor_data": {
-            "coverage": 5,
-            "covers": [
-                "torso"
+            "armor": [
+                {
+                    "coverage": 5,
+                    "covers": [
+                        "torso"
+                    ],
+                    "encumbrance": 10
+                }
             ],
-            "encumbrance": 10,
             "material_thickness": 1
         },
         "bashing": 15,
@@ -394,11 +418,15 @@
     {
         "ammo": "arrow",
         "armor_data": {
-            "coverage": 10,
-            "covers": [
-                "torso"
+            "armor": [
+                {
+                    "coverage": 10,
+                    "covers": [
+                        "torso"
+                    ],
+                    "encumbrance": 10
+                }
             ],
-            "encumbrance": 10,
             "material_thickness": 3
         },
         "bashing": 15,
@@ -474,11 +502,15 @@
     {
         "ammo": "arrow",
         "armor_data": {
-            "coverage": 5,
-            "covers": [
-                "torso"
+            "armor": [
+                {
+                    "coverage": 5,
+                    "covers": [
+                        "torso"
+                    ],
+                    "encumbrance": 10
+                }
             ],
-            "encumbrance": 10,
             "material_thickness": 1
         },
         "bashing": 10,
@@ -517,11 +549,15 @@
     {
         "ammo": "arrow",
         "armor_data": {
-            "coverage": 5,
-            "covers": [
-                "torso"
+            "armor": [
+                {
+                    "coverage": 5,
+                    "covers": [
+                        "torso"
+                    ],
+                    "encumbrance": 20
+                }
             ],
-            "encumbrance": 20,
             "material_thickness": 1
         },
         "bashing": 1,
