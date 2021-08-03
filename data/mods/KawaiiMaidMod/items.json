@@ -34,29 +34,32 @@
                 "max_contains_volume": "1 L",
                 "max_contains_weight": "2 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "1 L",
                 "max_contains_weight": "2 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "500 ml",
                 "max_contains_weight": "1 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "500 ml",
                 "max_contains_weight": "1 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             }
         ],
         "price": 50000,
-        "rigid": false,
         "symbol": "[",
         "type": "ARMOR",
         "valid_mods": [
@@ -103,41 +106,46 @@
                 "max_contains_volume": "4 L",
                 "max_contains_weight": "8 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "4 L",
                 "max_contains_weight": "8 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "4 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "4 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "4 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "4 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             }
         ],
         "price": 50000,
-        "rigid": false,
         "symbol": "[",
         "type": "ARMOR",
         "use_action": {
@@ -210,25 +218,29 @@
                 "max_contains_volume": "2500 ml",
                 "max_contains_weight": "6 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2500 ml",
                 "max_contains_weight": "6 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "1500 ml",
                 "max_contains_weight": "3 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "1500 ml",
                 "max_contains_weight": "3 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "holster": true,
@@ -240,12 +252,12 @@
                 ],
                 "max_contains_volume": "20 L",
                 "max_contains_weight": "20 kg",
-                "pocket_type": "MAGAZINE_WELL"
+                "pocket_type": "MAGAZINE_WELL",
+                "rigid": false
             }
         ],
         "price": 150000,
         "price_postapoc": 5000,
-        "rigid": false,
         "symbol": "[",
         "type": "TOOL_ARMOR",
         "use_action": {
@@ -333,29 +345,32 @@
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "4 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "4 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "500 ml",
                 "max_contains_weight": "1 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "500 ml",
                 "max_contains_weight": "1 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             }
         ],
         "price": 50000,
-        "rigid": false,
         "symbol": "[",
         "type": "ARMOR",
         "volume": 7,
@@ -429,29 +444,32 @@
                 "max_contains_volume": "4 L",
                 "max_contains_weight": "8 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "4 L",
                 "max_contains_weight": "8 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "2 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "2 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             }
         ],
         "price": 5000,
-        "rigid": false,
         "symbol": "[",
         "type": "ARMOR",
         "volume": 5,
@@ -580,29 +598,32 @@
                 "max_contains_volume": "4 L",
                 "max_contains_weight": "8 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "4 L",
                 "max_contains_weight": "8 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "2 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "2 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             }
         ],
         "price": 50000,
-        "rigid": false,
         "symbol": "[",
         "type": "ARMOR",
         "volume": 4,
@@ -707,29 +728,32 @@
                 "max_contains_volume": "4 L",
                 "max_contains_weight": "8 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "4 L",
                 "max_contains_weight": "8 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "2 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "2 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             }
         ],
         "price": 50000,
-        "rigid": false,
         "symbol": "[",
         "type": "ARMOR",
         "volume": 4,
@@ -1029,41 +1053,46 @@
                 "max_contains_volume": "4 L",
                 "max_contains_weight": "8 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "4 L",
                 "max_contains_weight": "8 kg",
                 "moves": 120,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "4 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "2 L",
                 "max_contains_weight": "4 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "1 L",
                 "max_contains_weight": "2 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             },
             {
                 "max_contains_volume": "1 L",
                 "max_contains_weight": "2 kg",
                 "moves": 80,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             }
         ],
         "price": 3900,
-        "rigid": false,
         "symbol": "[",
         "type": "ARMOR",
         "volume": 4,
@@ -2260,11 +2289,11 @@
                 "max_contains_volume": "28 L",
                 "max_contains_weight": "50 kg",
                 "moves": 270,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             }
         ],
         "price": 12000,
-        "rigid": false,
         "symbol": "[",
         "type": "ARMOR",
         "volume": "6 L",
@@ -2300,11 +2329,11 @@
                 "max_contains_volume": "20 L",
                 "max_contains_weight": "30 kg",
                 "moves": 240,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             }
         ],
         "price": 8000,
-        "rigid": false,
         "symbol": "[",
         "type": "ARMOR",
         "volume": 12,
@@ -2340,11 +2369,11 @@
                 "max_contains_volume": "10 L",
                 "max_contains_weight": "25 kg",
                 "moves": 150,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             }
         ],
         "price": 8000,
-        "rigid": false,
         "symbol": "[",
         "type": "ARMOR",
         "volume": 9,
@@ -2388,11 +2417,11 @@
                 "max_contains_volume": "1500 ml",
                 "max_contains_weight": "2 kg",
                 "moves": 150,
-                "pocket_type": "CONTAINER"
+                "pocket_type": "CONTAINER",
+                "rigid": false
             }
         ],
         "price": 3000,
-        "rigid": false,
         "symbol": "[",
         "type": "ARMOR",
         "volume": 2,
