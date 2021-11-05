@@ -42,7 +42,7 @@
         "skill": "archery",
         "symbol": "(",
         "type": "GUN",
-        "volume": 10,
+        "volume": "2500 ml",
         "weight": 1000
     },
     {
@@ -88,7 +88,7 @@
         "skill": "archery",
         "symbol": "(",
         "type": "GUN",
-        "volume": 12,
+        "volume": "3 L",
         "weight": 500
     },
     {
@@ -151,7 +151,7 @@
                 2
             ]
         ],
-        "volume": 12,
+        "volume": "3 L",
         "weight": 700
     },
     {
@@ -235,7 +235,7 @@
                 1
             ]
         ],
-        "volume": 14,
+        "volume": "3500 ml",
         "weight": 850
     },
     {
@@ -289,7 +289,7 @@
             "DEF_DISARM"
         ],
         "type": "GUN",
-        "volume": 12,
+        "volume": "3 L",
         "weight": 1500
     },
     {
@@ -322,7 +322,7 @@
             "target": "kawaii_shelia_on",
             "type": "transform"
         },
-        "volume": 2,
+        "volume": "500 ml",
         "weight": 250
     },
     {
@@ -412,7 +412,7 @@
                 1
             ]
         ],
-        "volume": 7,
+        "volume": "1750 ml",
         "weight": 250
     },
     {
@@ -496,7 +496,7 @@
                 1
             ]
         ],
-        "volume": 6,
+        "volume": "1500 ml",
         "weight": 450
     },
     {
@@ -543,7 +543,7 @@
         "symbol": "(",
         "to_hit": 3,
         "type": "GUN",
-        "volume": 18,
+        "volume": "4500 ml",
         "weight": 950
     },
     {
@@ -593,7 +593,7 @@
         "symbol": "(",
         "to_hit": 1,
         "type": "GUN",
-        "volume": 10,
+        "volume": "2500 ml",
         "weight": 1200
     },
     {
@@ -624,7 +624,7 @@
             "target": "kawaii_rita_and_rosa_off",
             "type": "transform"
         },
-        "volume": 12,
+        "volume": "3 L",
         "weight": 1000
     },
     {
@@ -656,7 +656,7 @@
             "target": "kawaii_rita_and_rosa",
             "type": "transform"
         },
-        "volume": 12,
+        "volume": "3 L",
         "weight": 1000
     },
     {
@@ -687,7 +687,7 @@
             "target": "kawaii_crystal_tr",
             "type": "transform"
         },
-        "volume": 14,
+        "volume": "3500 ml",
         "weight": 1200
     },
     {
@@ -719,7 +719,7 @@
             "target": "kawaii_crystal_td",
             "type": "transform"
         },
-        "volume": 14,
+        "volume": "3500 ml",
         "weight": 1200
     },
     {
@@ -744,7 +744,7 @@
         ],
         "to_hit": 3,
         "type": "GENERIC",
-        "volume": 14,
+        "volume": "3500 ml",
         "weight": 1200
     },
     {
@@ -765,7 +765,7 @@
         "price": 2000,
         "symbol": "/",
         "type": "GENERIC",
-        "volume": 6,
+        "volume": "1500 ml",
         "weight": 1000
     },
     {
@@ -792,7 +792,7 @@
         ],
         "to_hit": 1,
         "type": "GENERIC",
-        "volume": 6,
+        "volume": "1500 ml",
         "weight": 1100
     },
     {
@@ -821,7 +821,7 @@
         ],
         "to_hit": 3,
         "type": "GENERIC",
-        "volume": 8,
+        "volume": "2 L",
         "weight": 1400
     },
     {
@@ -848,7 +848,7 @@
         ],
         "to_hit": -1,
         "type": "GENERIC",
-        "volume": 16,
+        "volume": "4 L",
         "weight": 2000
     },
     {
@@ -880,7 +880,7 @@
         ],
         "symbol": ";",
         "type": "TOOL",
-        "volume": 2,
+        "volume": "500 ml",
         "weight": 900
     },
     {
@@ -899,7 +899,7 @@
             "WBLOCK_1"
         ],
         "type": "GENERIC",
-        "volume": 8,
+        "volume": "2 L",
         "weight": 1100
     },
     {
@@ -940,7 +940,7 @@
         ],
         "type": "TOOL",
         "use_action": "CROWBAR",
-        "volume": 6,
+        "volume": "1500 ml",
         "weight": 1500
     },
     {
@@ -966,7 +966,7 @@
         ],
         "to_hit": 99,
         "type": "TOOL",
-        "volume": 8,
+        "volume": "2 L",
         "weight": 1000
     }
 ]

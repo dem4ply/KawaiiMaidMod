@@ -23,7 +23,7 @@
         "range": 7,
         "symbol": "=",
         "type": "AMMO",
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 40
     },
     {
@@ -50,7 +50,7 @@
         "range": 8,
         "symbol": "=",
         "type": "AMMO",
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 20
     },
     {
@@ -80,7 +80,7 @@
         "range": 10,
         "symbol": "=",
         "type": "AMMO",
-        "volume": 2,
+        "volume": "500 ml",
         "weight": 140
     }
 ]

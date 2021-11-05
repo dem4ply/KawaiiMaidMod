@@ -65,7 +65,7 @@
         "valid_mods": [
             "steel_padded"
         ],
-        "volume": 4,
+        "volume": "1 L",
         "warmth": 15,
         "weight": 150
     },
@@ -373,7 +373,7 @@
         "price": 50000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 7,
+        "volume": "1750 ml",
         "warmth": 40,
         "weight": 350
     },
@@ -406,7 +406,7 @@
         "price": 5000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 10,
+        "volume": "2500 ml",
         "warmth": 10,
         "weight": 400
     },
@@ -472,7 +472,7 @@
         "price": 5000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 5,
+        "volume": "1250 ml",
         "warmth": 5,
         "weight": 200
     },
@@ -516,7 +516,7 @@
             "target": "kawaii_raincoat_off",
             "type": "transform"
         },
-        "volume": 3,
+        "volume": "750 ml",
         "warmth": 5,
         "weight": 120
     },
@@ -560,7 +560,7 @@
             "target": "kawaii_raincoat",
             "type": "transform"
         },
-        "volume": 3,
+        "volume": "750 ml",
         "warmth": 5,
         "weight": 120
     },
@@ -626,7 +626,7 @@
         "price": 50000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 4,
+        "volume": "1 L",
         "warmth": 5,
         "weight": 200
     },
@@ -658,7 +658,7 @@
         "price": 90000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 2,
+        "volume": "500 ml",
         "warmth": 0,
         "weight": 100
     },
@@ -690,7 +690,7 @@
         "price": 90000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 2,
+        "volume": "500 ml",
         "warmth": 0,
         "weight": 100
     },
@@ -756,7 +756,7 @@
         "price": 50000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 4,
+        "volume": "1 L",
         "warmth": 5,
         "weight": 200
     },
@@ -786,7 +786,7 @@
         "price": 1000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 0,
         "weight": 32
     },
@@ -815,7 +815,7 @@
         "price": 1000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 0,
         "weight": 32
     },
@@ -845,7 +845,7 @@
         "price": 1000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 5,
         "weight": 32
     },
@@ -874,7 +874,7 @@
         "price": 1000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 5,
         "weight": 32
     },
@@ -904,7 +904,7 @@
         "price": 1000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 5,
         "weight": 32
     },
@@ -933,7 +933,7 @@
         "price": 1000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 5,
         "weight": 32
     },
@@ -963,7 +963,7 @@
         "price": 1000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 5,
         "weight": 32
     },
@@ -992,7 +992,7 @@
         "price": 1800,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 32
     },
     {
@@ -1020,7 +1020,7 @@
         "price": 3000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 11
     },
     {
@@ -1095,7 +1095,7 @@
         "price": 3900,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 4,
+        "volume": "1 L",
         "warmth": 5,
         "weight": 516
     },
@@ -1133,7 +1133,7 @@
             "target": "kawaii_maid_hat_kiai",
             "type": "transform"
         },
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 0,
         "weight": 10
     },
@@ -1172,7 +1172,7 @@
             "target": "kawaii_maid_hat",
             "type": "transform"
         },
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 30,
         "weight": 10
     },
@@ -1229,7 +1229,7 @@
             "target": "kawaii_maid_hat_thermal_on",
             "type": "transform"
         },
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 10,
         "weight": 15
     },
@@ -1309,7 +1309,7 @@
             "target": "kawaii_maid_hat_lss1",
             "type": "transform"
         },
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 20,
         "weight": 15
     },
@@ -1409,7 +1409,7 @@
             "target": "kawaii_hitec_megane_nv",
             "type": "transform"
         },
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 90
     },
     {
@@ -1513,7 +1513,7 @@
             "target": "kawaii_maid_megane_02",
             "type": "transform"
         },
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 30
     },
     {
@@ -1550,7 +1550,7 @@
             "target": "kawaii_maid_megane_01",
             "type": "transform"
         },
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 30
     },
     {
@@ -1587,7 +1587,7 @@
             "target": "kawaii_maid_megane_04",
             "type": "transform"
         },
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 30
     },
     {
@@ -1624,7 +1624,7 @@
             "target": "kawaii_maid_megane_03",
             "type": "transform"
         },
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 30
     },
     {
@@ -1655,7 +1655,7 @@
         "price": 7900,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 30
     },
     {
@@ -1686,7 +1686,7 @@
         "price": 7900,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 30
     },
     {
@@ -1717,7 +1717,7 @@
         "price": 7900,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 30
     },
     {
@@ -1748,7 +1748,7 @@
         "price": 7900,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 30
     },
     {
@@ -1779,7 +1779,7 @@
         "price": 7900,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "weight": 30
     },
     {
@@ -1802,7 +1802,7 @@
         "price": 2000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 20,
         "weight": 78
     },
@@ -1832,7 +1832,7 @@
         "price": 3500,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 25,
         "weight": 40
     },
@@ -1861,7 +1861,7 @@
         "price": 5000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 15,
         "weight": 10
     },
@@ -1890,7 +1890,7 @@
         "price": 5000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 15,
         "weight": 10
     },
@@ -1919,7 +1919,7 @@
         "price": 5000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 5,
         "weight": 10
     },
@@ -1948,7 +1948,7 @@
         "price": 5000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 5,
         "weight": 10
     },
@@ -2336,7 +2336,7 @@
         "price": 8000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 12,
+        "volume": "3 L",
         "warmth": 0,
         "weight": 650
     },
@@ -2376,7 +2376,7 @@
         "price": 8000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 9,
+        "volume": "2250 ml",
         "warmth": 0,
         "weight": 400
     },
@@ -2424,7 +2424,7 @@
         "price": 3000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 2,
+        "volume": "500 ml",
         "weight": 250
     },
     {
@@ -2453,7 +2453,7 @@
         "price": 500,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 35,
         "weight": 90
     },
@@ -2482,7 +2482,7 @@
         "price": 500,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 0,
         "weight": 40
     },
@@ -2514,7 +2514,7 @@
         "price": 5000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 2,
+        "volume": "500 ml",
         "warmth": 40,
         "weight": 200
     },
@@ -2546,7 +2546,7 @@
         "price": 5000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 2,
+        "volume": "500 ml",
         "warmth": 40,
         "weight": 200
     },
@@ -2575,7 +2575,7 @@
         "price": 500,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 5,
         "weight": 10
     },
@@ -2603,7 +2603,7 @@
         "price": 1500,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 0,
         "weight": 10
     },
@@ -2632,7 +2632,7 @@
         "price": 12000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 5,
+        "volume": "1250 ml",
         "warmth": 5,
         "weight": 500
     },
@@ -2661,7 +2661,7 @@
         "price": 12000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 5,
+        "volume": "1250 ml",
         "warmth": 5,
         "weight": 400
     },
@@ -2692,7 +2692,7 @@
         "price": 25000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 8,
+        "volume": "2 L",
         "warmth": 20,
         "weight": 800
     },
@@ -2725,7 +2725,7 @@
         "price": 85000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 5,
+        "volume": "1250 ml",
         "warmth": 30,
         "weight": 600
     },
@@ -2758,7 +2758,7 @@
         "price": 55000,
         "symbol": "[",
         "type": "ARMOR",
-        "volume": 3,
+        "volume": "750 ml",
         "warmth": 2,
         "weight": 400
     },
@@ -2889,7 +2889,7 @@
         "symbol": "[",
         "to_hit": 1,
         "type": "ARMOR",
-        "volume": 1,
+        "volume": "250 ml",
         "warmth": 20,
         "weight": 118
     },
